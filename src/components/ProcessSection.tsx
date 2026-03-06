@@ -2,14 +2,14 @@ const ProcessSection = () => {
   return (
     <section className="bg-surface-dark text-surface-dark-foreground py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-4xl">
-        <h2 className="font-display text-3xl md:text-4xl font-black mb-16 text-center">
-          服務<span className="text-accent-red">流程</span>
+        <h2 className="font-display text-4xl md:text-5xl font-black mb-16 text-center">
+          服務<span className="text-accent-gold">流程</span>
         </h2>
 
         {/* Workshop */}
         <div className="mb-20">
           <div className="flex items-center gap-4 mb-10">
-            <span className="bg-accent text-accent-foreground font-body text-xs font-bold tracking-widest uppercase px-4 py-2">
+            <span className="bg-accent text-accent-foreground font-body text-sm font-bold tracking-widest uppercase px-4 py-2">
               一日工作坊
             </span>
             <div className="flex-1 h-px bg-surface-dark-foreground/20" />
@@ -25,10 +25,10 @@ const ProcessSection = () => {
               { time: "16:30-17:00", title: "寫完企劃書然後呢", desc: "投稿策略、投稿信範本、一本書的裂變效應。以及陪跑方案說明。" },
             ].map((item, i) => (
               <div key={i} className="grid grid-cols-[100px_1fr] md:grid-cols-[140px_1fr] gap-4 md:gap-8">
-                <span className="font-body text-accent-red text-sm font-medium pt-1">{item.time}</span>
+                <span className="font-body text-accent-gold text-base font-medium pt-1">{item.time}</span>
                 <div>
-                  <h4 className="font-display text-lg font-bold mb-1">{item.title}</h4>
-                  {item.desc && <p className="font-body text-surface-dark-foreground/60 text-sm leading-relaxed">{item.desc}</p>}
+                  <h4 className="font-display text-xl font-bold mb-1">{item.title}</h4>
+                  {item.desc && <p className="font-body text-surface-dark-foreground/60 text-base leading-relaxed">{item.desc}</p>}
                 </div>
               </div>
             ))}
@@ -38,13 +38,13 @@ const ProcessSection = () => {
         {/* 6-week coaching */}
         <div className="mb-20">
           <div className="flex items-center gap-4 mb-10">
-            <span className="bg-accent text-accent-foreground font-body text-xs font-bold tracking-widest uppercase px-4 py-2">
+            <span className="bg-accent text-accent-foreground font-body text-sm font-bold tracking-widest uppercase px-4 py-2">
               6 週線上陪跑
             </span>
             <div className="flex-1 h-px bg-surface-dark-foreground/20" />
           </div>
 
-          <p className="font-body text-surface-dark-foreground/60 text-sm mb-8">
+          <p className="font-body text-surface-dark-foreground/60 text-base mb-8">
             每週三線上精修（每次 60-90 分鐘）+ LINE 群組隨時問答（工作日 24 小時內回覆）
           </p>
 
@@ -58,10 +58,10 @@ const ProcessSection = () => {
               { week: "W6", task: "結業 + 行動計畫", output: "一份完整可投遞的書籍企劃書" },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 border-b border-surface-dark-foreground/10 pb-4">
-                <span className="font-body text-accent-red font-bold text-sm min-w-[40px]">{item.week}</span>
+                <span className="font-body text-accent-gold font-bold text-base min-w-[40px]">{item.week}</span>
                 <div className="flex-1">
-                  <span className="font-body text-surface-dark-foreground font-medium text-sm">{item.task}</span>
-                  <span className="font-body text-surface-dark-foreground/50 text-sm"> → {item.output}</span>
+                  <span className="font-body text-surface-dark-foreground font-medium text-base">{item.task}</span>
+                  <span className="font-body text-surface-dark-foreground/50 text-base"> → {item.output}</span>
                 </div>
               </div>
             ))}
@@ -69,25 +69,25 @@ const ProcessSection = () => {
         </div>
 
         {/* Editor highlight */}
-        <div className="border-2 border-accent-red rounded p-8 md:p-12">
-          <h3 className="font-display text-2xl font-bold mb-4">
-            陪跑班核心權益：<span className="text-accent-red">總編會客室</span>
+        <div className="border-2 border-accent-gold rounded-lg p-8 md:p-12">
+          <h3 className="font-display text-3xl font-bold mb-4">
+            陪跑班核心權益：<span className="text-accent-gold">總編會客室</span>
           </h3>
-          <p className="font-body text-surface-dark-foreground/80 leading-relaxed mb-4">
+          <p className="font-body text-surface-dark-foreground/80 text-base leading-relaxed mb-4">
             <strong>賈俊國（阿丹總編）</strong>：城邦出版集團商周出版總經理、布克文化總編輯。出版經歷超過 30 年，經手超過 500 本暢銷書，累積銷售超過 1,000 萬冊。
           </p>
-          <p className="font-body text-surface-dark-foreground/60 text-sm leading-relaxed mb-6">
+          <p className="font-body text-surface-dark-foreground/60 text-base leading-relaxed mb-6">
             他是暢銷作家 PETER SU 第 3、4 本書的總編輯，也是《黃阿瑪後宮生活》系列的幕後推手。角落小夥伴、拉拉熊、水豚君等知名圖文出版品的企畫選書人。
           </p>
-          <div className="bg-surface-dark-foreground/5 rounded p-6">
-            <p className="font-body text-surface-dark-foreground font-medium leading-relaxed">
+          <div className="bg-surface-dark-foreground/5 rounded-lg p-6">
+            <p className="font-body text-surface-dark-foreground text-base font-medium leading-relaxed">
               這位總編會親自回饋你的企劃書。針對你的企劃逐條給意見，一對一文字回饋。你拿到的是業界最資深的眼睛幫你看過一遍。
-              <span className="text-accent-red font-bold">這份回饋的含金量，外面花錢也買不到。</span>
+              <span className="text-accent-gold font-bold">這份回饋的含金量，外面花錢也買不到。</span>
             </p>
           </div>
-          <p className="font-body text-accent-red text-sm font-bold mt-6">陪跑限額 5 人，額滿不加開</p>
+          <p className="font-body text-accent-green text-base font-bold mt-6">陪跑限額 5 人，額滿不加開</p>
           <a href="https://facebook.com/daniel.editorinchief" target="_blank" rel="noopener noreferrer"
-            className="inline-block mt-4 font-body text-surface-dark-foreground/50 text-sm underline hover:text-accent-red transition-colors">
+            className="inline-block mt-4 font-body text-surface-dark-foreground/50 text-base underline hover:text-accent-gold transition-colors">
             → 如何出版一本書（Facebook）
           </a>
         </div>
