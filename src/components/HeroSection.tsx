@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* Background image with warm overlay */}
       <div className="absolute inset-0">
         <img src={heroImg} alt="AI 出書實戰班工作坊現場" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/60 via-foreground/40 to-foreground/70" />
       </div>
 
       <div className="relative z-10 container mx-auto px-6 py-24 md:py-32 max-w-5xl">
