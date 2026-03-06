@@ -10,7 +10,7 @@ const CTASection = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-6 max-w-4xl text-center">
-        <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6">
+        <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-black leading-[1.4] mb-6">
           你心裡那本書，<br />
           <span className="text-accent-gold">打算再等幾年</span>
         </h2>

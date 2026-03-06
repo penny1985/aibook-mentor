@@ -12,9 +12,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-surface-dark/90 backdrop-blur-md border-b border-surface-dark-foreground/10">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 max-w-5xl flex items-center justify-between h-16">
-        <a href="#" className="font-display text-surface-dark-foreground text-lg font-bold">
+        <a href="#" className="font-display text-foreground text-lg font-bold">
           AI 出書實戰班
         </a>
 
@@ -24,14 +24,14 @@ const Navbar = () => {
             <a
               key={item.href}
               href={item.href}
-              className="font-body text-surface-dark-foreground/70 hover:text-accent-gold text-sm transition-colors"
+              className="font-body text-foreground/70 hover:text-accent-gold text-base transition-colors"
             >
               {item.label}
             </a>
           ))}
           <a
             href="#cta"
-            className="bg-accent-gold text-foreground font-bold text-sm px-5 py-2 rounded hover:opacity-90 transition-opacity"
+            className="bg-accent-gold text-foreground font-bold text-base px-5 py-2 rounded hover:opacity-90 transition-opacity"
           >
             立即報名
           </a>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-surface-dark-foreground p-2"
+          className="md:hidden text-foreground p-2"
           onClick={() => setOpen(!open)}
           aria-label="選單"
         >
@@ -55,13 +55,13 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-surface-dark border-t border-surface-dark-foreground/10 px-6 pb-6">
+        <div className="md:hidden bg-background border-t border-border px-6 pb-6">
           {navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="block font-body text-surface-dark-foreground/70 hover:text-accent-gold text-base py-3 border-b border-surface-dark-foreground/5"
+              className="block font-body text-foreground/70 hover:text-accent-gold text-base py-3 border-b border-border/50"
             >
               {item.label}
             </a>

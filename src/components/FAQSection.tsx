@@ -47,7 +47,7 @@ const FAQSection = () => {
   return (
     <section className="bg-secondary py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-3xl">
-        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-16 text-center">
+        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-16 text-center leading-[1.4]">
           常見<span className="text-accent-green">問題</span>
         </h2>
 
