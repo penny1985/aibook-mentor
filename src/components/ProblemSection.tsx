@@ -9,7 +9,7 @@ const ProblemSection = () => {
           <div>
             <h2 className="font-display text-4xl md:text-5xl font-black text-foreground leading-[1.4] mb-6">
               你心裡那本書，<br />
-              <span className="text-accent-green">卡了多久了</span>
+              <span className="text-accent-gold">卡了多久了</span>
             </h2>
             <p className="font-body text-muted-foreground text-base leading-relaxed mb-4">
               你心裡一直有一本書想寫。可能是十年教學經驗的總結，可能是一套獨家方法論，可能是一段值得被記錄的專業歷程。
@@ -33,9 +33,6 @@ const ProblemSection = () => {
             <p>
               首刷量從三千本縮到一千兩百本，翻譯書持續壓縮本土作者的空間。793 家出版社裡，近九成集中在桃園以北。中南部的專業工作者想出書，先天就少了一層被看見的機會。
             </p>
-            <p className="text-foreground font-medium">
-              30 年出版資歷的賈俊國總編證實：出版社現在以海外版權為主，大幅減少簽國內新作者。
-            </p>
             <p className="text-foreground font-semibold text-lg">
               所以出版社現在看的，除了你的稿子品質，更關鍵的是：<span className="text-accent-green">「你有沒有能力幫這本書賣」</span>
             </p>
@@ -43,23 +40,23 @@ const ProblemSection = () => {
         </div>
 
         {/* Solution */}
-        <div className="bg-surface-dark text-surface-dark-foreground rounded-lg p-8 md:p-12">
+        <div className="bg-secondary rounded-lg p-8 md:p-12">
           <h3 className="font-display text-3xl md:text-4xl font-bold mb-6">
             一天打底，<span className="text-accent-gold">六週修到可以投出去</span>
           </h3>
-          <div className="space-y-4 font-body text-surface-dark-foreground/80 text-base leading-relaxed mb-8">
+          <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed mb-8">
             <p><strong className="text-accent-gold">第一步</strong> — 一日工作坊，用 AI 雙引擎從零完成書籍企劃書初版</p>
             <p><strong className="text-accent-gold">第二步</strong> — 六週線上陪跑，Penny 帶你每週精修，從初版改到可投遞</p>
             <p><strong className="text-accent-gold">第三步</strong> — 總編會客室，30 年出版資歷的賈俊國總編親自回饋你的企劃書</p>
           </div>
-          <p className="font-body text-surface-dark-foreground/60 text-base mb-8">
+          <p className="font-body text-muted-foreground text-base mb-8">
             你不需要先寫好稿子才來。你只需要帶著「心裡那本書的模糊輪廓」走進教室。
           </p>
 
           {/* Deliverables */}
-          <div className="border-t border-surface-dark-foreground/20 pt-8">
+          <div className="border-t border-border pt-8">
             <h4 className="font-display text-xl font-bold mb-4">六週結束時，你手上會有：</h4>
-            <ul className="space-y-2 font-body text-surface-dark-foreground/80 text-base">
+            <ul className="space-y-2 font-body text-muted-foreground text-base">
               <li className="flex items-start gap-3">
                 <span className="text-accent-gold mt-1">●</span>
                 一份經過總編親自回饋、修改過兩輪以上的完整書籍企劃書
@@ -74,12 +71,12 @@ const ProblemSection = () => {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-accent-gold mt-1">●</span>
-                AI Prompt + Skill 模板包，離開陪跑後也能持續用
+                神秘小禮物
               </li>
             </ul>
           </div>
 
-          <p className="font-body text-surface-dark-foreground/60 text-base mt-8">
+          <p className="font-body text-muted-foreground text-base mt-8">
             全程使用 Claude（結構思考與品質把關）+ Gemini（量產與市場對標）雙引擎，效率是傳統寫法的 3 到 5 倍。
           </p>
         </div>

@@ -11,9 +11,9 @@ const HeroSection = () => {
 
       <div className="relative z-10 container mx-auto px-6 py-24 md:py-32 max-w-5xl">
         {/* Top tag */}
-        <div className="mb-8 animate-fade-in">
-          <span className="inline-block bg-foreground/60 backdrop-blur text-white font-body text-base tracking-[0.2em] px-5 py-2 rounded">
-            4/11 台中 ｜ 4/12 高雄
+        <div className="mb-8 animate-fade-in flex flex-wrap gap-3">
+          <span className="inline-block bg-accent-gold text-foreground font-body text-base font-bold tracking-wide px-5 py-2 rounded">
+            3/28 前早鳥優惠
           </span>
         </div>
 
