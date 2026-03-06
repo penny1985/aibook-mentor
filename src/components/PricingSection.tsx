@@ -2,7 +2,7 @@ const PricingSection = () => {
   return (
     <section className="bg-background py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-5xl">
-        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-16 text-center">
+        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-16 text-center leading-[1.4]">
           方案與<span className="text-accent-green">定價</span>
         </h2>
 
