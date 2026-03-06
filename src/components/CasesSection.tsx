@@ -19,7 +19,7 @@ const CasesSection = () => {
   return (
     <section className="bg-background py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-5xl">
-        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-4 text-center">
+        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-4 text-center leading-[1.4]">
           他們出了書<span className="text-accent-green">之後</span>
         </h2>
         <p className="font-body text-muted-foreground text-center mb-16 max-w-2xl mx-auto text-base">

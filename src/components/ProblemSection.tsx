@@ -7,7 +7,7 @@ const ProblemSection = () => {
         {/* Problem intro */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div>
-            <h2 className="font-display text-4xl md:text-5xl font-black text-foreground leading-tight mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-black text-foreground leading-[1.4] mb-6">
               你心裡那本書，<br />
               <span className="text-accent-green">卡了多久了</span>
             </h2>

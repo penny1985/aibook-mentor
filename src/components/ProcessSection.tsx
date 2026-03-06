@@ -1,8 +1,10 @@
+import editorImg from "@/assets/editor-jia.jpg";
+
 const ProcessSection = () => {
   return (
     <section className="bg-surface-dark text-surface-dark-foreground py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-4xl">
-        <h2 className="font-display text-4xl md:text-5xl font-black mb-16 text-center">
+        <h2 className="font-display text-4xl md:text-5xl font-black mb-16 text-center leading-[1.4]">
           服務<span className="text-accent-gold">流程</span>
         </h2>
 
@@ -70,15 +72,22 @@ const ProcessSection = () => {
 
         {/* Editor highlight */}
         <div className="border-2 border-accent-gold rounded-lg p-8 md:p-12">
-          <h3 className="font-display text-3xl font-bold mb-4">
+          <h3 className="font-display text-3xl font-bold mb-6 leading-[1.4]">
             陪跑班核心權益：<span className="text-accent-gold">總編會客室</span>
           </h3>
-          <p className="font-body text-surface-dark-foreground/80 text-base leading-relaxed mb-4">
-            <strong>賈俊國（阿丹總編）</strong>：城邦出版集團商周出版總經理、布克文化總編輯。出版經歷超過 30 年，經手超過 500 本暢銷書，累積銷售超過 1,000 萬冊。
-          </p>
-          <p className="font-body text-surface-dark-foreground/60 text-base leading-relaxed mb-6">
-            他是暢銷作家 PETER SU 第 3、4 本書的總編輯，也是《黃阿瑪後宮生活》系列的幕後推手。角落小夥伴、拉拉熊、水豚君等知名圖文出版品的企畫選書人。
-          </p>
+          <div className="grid md:grid-cols-[200px_1fr] gap-8 items-start mb-6">
+            <div>
+              <img src={editorImg} alt="賈俊國總編" className="w-full rounded-lg shadow-lg" />
+            </div>
+            <div>
+              <p className="font-body text-surface-dark-foreground/80 text-base leading-relaxed mb-4">
+                <strong>賈俊國（阿丹總編）</strong>：城邦出版集團商周出版總經理、布克文化總編輯。出版經歷超過 30 年，經手超過 500 本暢銷書，累積銷售超過 1,000 萬冊。
+              </p>
+              <p className="font-body text-surface-dark-foreground/60 text-base leading-relaxed">
+                他是暢銷作家 PETER SU 第 3、4 本書的總編輯，也是《黃阿瑪後宮生活》系列的幕後推手。角落小夥伴、拉拉熊、水豚君等知名圖文出版品的企畫選書人。
+              </p>
+            </div>
+          </div>
           <div className="bg-surface-dark-foreground/5 rounded-lg p-6">
             <p className="font-body text-surface-dark-foreground text-base font-medium leading-relaxed">
               這位總編會親自回饋你的企劃書。針對你的企劃逐條給意見，一對一文字回饋。你拿到的是業界最資深的眼睛幫你看過一遍。
