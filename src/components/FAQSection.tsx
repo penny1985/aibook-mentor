@@ -47,17 +47,17 @@ const FAQSection = () => {
   return (
     <section className="bg-secondary py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-3xl">
-        <h2 className="font-display text-3xl md:text-4xl font-black text-foreground mb-16 text-center">
-          常見<span className="text-accent-red">問題</span>
+        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-16 text-center">
+          常見<span className="text-accent-green">問題</span>
         </h2>
 
         <Accordion type="single" collapsible className="mb-16">
           {faqs.map((faq, i) => (
             <AccordionItem key={i} value={`faq-${i}`} className="border-b border-border">
-              <AccordionTrigger className="font-display text-left text-base font-bold text-foreground hover:no-underline hover:text-accent-red py-5">
+              <AccordionTrigger className="font-display text-left text-lg font-bold text-foreground hover:no-underline hover:text-accent py-5">
                 {faq.q}
               </AccordionTrigger>
-              <AccordionContent className="font-body text-muted-foreground text-sm leading-relaxed pb-6">
+              <AccordionContent className="font-body text-muted-foreground text-base leading-relaxed pb-6">
                 {faq.a}
               </AccordionContent>
             </AccordionItem>
@@ -65,14 +65,14 @@ const FAQSection = () => {
         </Accordion>
 
         {/* Refund policy */}
-        <div className="bg-background rounded p-8">
-          <h3 className="font-display text-lg font-bold text-foreground mb-4">安心報名保障</h3>
-          <ul className="space-y-2 font-body text-muted-foreground text-sm">
+        <div className="bg-background rounded-lg p-8">
+          <h3 className="font-display text-xl font-bold text-foreground mb-4">安心報名保障</h3>
+          <ul className="space-y-2 font-body text-muted-foreground text-base">
             <li>→ 開課前十天（含）：可申請全額退費</li>
             <li>→ 開課前十天內：可將名額轉讓給他人</li>
             <li>→ 課程當天臨時無法出席：可加價轉至下一梯次（預計十月），但無法退費</li>
           </ul>
-          <p className="font-body text-muted-foreground/60 text-xs mt-4">
+          <p className="font-body text-muted-foreground/60 text-sm mt-4">
             有任何問題歡迎透過 LINE 官方帳號詢問，工作日 24 小時內回覆。
           </p>
         </div>
