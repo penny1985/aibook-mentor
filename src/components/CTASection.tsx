@@ -22,10 +22,8 @@ const CTASection = () => {
           </div>
 
           {/* Key info */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12 font-body text-base">
-            <span className="border border-accent-gold text-accent-gold px-4 py-2 rounded">4/11（五）台中</span>
-            <span className="border border-accent-gold text-accent-gold px-4 py-2 rounded">4/12（六）高雄</span>
-            <span className="bg-accent text-accent-foreground px-4 py-2 rounded font-bold">早鳥 3/28 截止</span>
+          <div className="flex justify-center mb-12 font-body text-base">
+            <span className="bg-accent text-accent-foreground px-6 py-3 rounded font-bold text-lg">早鳥 3/28 截止</span>
           </div>
 
           {/* CTA buttons */}
@@ -35,11 +33,11 @@ const CTASection = () => {
               <div className="flex flex-col gap-3">
                 <a href="https://cart.cashier.ecpay.com.tw/qp/z6cE" target="_blank" rel="noopener noreferrer"
                   className="block bg-accent-gold text-foreground hover:opacity-90 font-bold text-base px-6 py-4 rounded transition-colors text-center">
-                  工作坊＋陪跑 NT$16,800
+                  工作坊＋陪跑 NT$16,800 <span className="line-through opacity-60 ml-1">NT$20,000</span>
                 </a>
                 <a href="https://cart.cashier.ecpay.com.tw/qp/z5Z9" target="_blank" rel="noopener noreferrer"
                   className="block border border-border text-foreground hover:border-accent-gold hover:text-accent-gold font-body text-base px-6 py-4 rounded transition-colors text-center">
-                  一日工作坊 NT$7,500
+                  一日工作坊 NT$7,500 <span className="line-through opacity-60 ml-1">NT$8,800</span>
                 </a>
               </div>
             </div>
@@ -48,11 +46,11 @@ const CTASection = () => {
               <div className="flex flex-col gap-3">
                 <a href="https://cart.cashier.ecpay.com.tw/qp/z6dF" target="_blank" rel="noopener noreferrer"
                   className="block bg-accent-gold text-foreground hover:opacity-90 font-bold text-base px-6 py-4 rounded transition-colors text-center">
-                  工作坊＋陪跑 NT$16,800
+                  工作坊＋陪跑 NT$16,800 <span className="line-through opacity-60 ml-1">NT$20,000</span>
                 </a>
                 <a href="https://cart.cashier.ecpay.com.tw/qp/z6a5" target="_blank" rel="noopener noreferrer"
                   className="block border border-border text-foreground hover:border-accent-gold hover:text-accent-gold font-body text-base px-6 py-4 rounded transition-colors text-center">
-                  一日工作坊 NT$7,500
+                  一日工作坊 NT$7,500 <span className="line-through opacity-60 ml-1">NT$8,800</span>
                 </a>
               </div>
             </div>
