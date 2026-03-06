@@ -35,7 +35,7 @@ const PricingSection = () => {
               <span className="font-display text-4xl font-black text-foreground">NT$16,800</span>
               <span className="font-body text-muted-foreground text-base ml-2 line-through">NT$20,000</span>
             </div>
-            <p className="font-body text-accent-gold text-sm font-medium mb-6">合購價，開課當天前</p>
+            <p className="font-body text-accent-gold text-sm font-medium mb-6">合購早鳥價</p>
             <ul className="space-y-3 font-body text-muted-foreground text-base flex-1 mb-8">
               <li className="flex items-start gap-2"><span className="text-accent-green">✓</span> 包含工作坊所有內容</li>
               <li className="flex items-start gap-2"><span className="text-accent-green">✓</span> 每週三線上精修</li>
