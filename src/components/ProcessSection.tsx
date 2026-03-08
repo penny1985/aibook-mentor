@@ -24,7 +24,7 @@ const ProcessSection = () => {
               { time: "12:30-13:30", title: "午休", desc: "" },
               { time: "13:30-15:00", title: "讓出版社一看就想約你聊", desc: "完整企劃書結構教學。用 Claude 做結構思考，用 Gemini 做市場對標，產出目錄架構、作者簡介、企劃緣起。整天最核心的實作段。" },
               { time: "15:15-16:30", title: "讓 AI 幫你寫出你的聲音", desc: "AI 協作寫書的正確方式：怎麼讓 AI 放大你的觀點，同時保留你的風格。包含 AI 品質檢視流程和雙引擎工作流。完成一個章節開頭。" },
-              { time: "16:30-17:00", title: "寫完企劃書然後呢", desc: "投稿策略、投稿信範本、一本書的裂變效應。以及陪跑方案說明。" },
+              { time: "16:30-17:00", title: "QA與回饋", desc: "投稿策略、投稿信範本、一本書的裂變效應。以及陪跑方案說明。" },
             ].map((item, i) => (
               <div key={i} className="grid grid-cols-[100px_1fr] md:grid-cols-[140px_1fr] gap-4 md:gap-8">
                 <span className="font-body text-accent-gold text-base font-medium pt-1">{item.time}</span>
@@ -35,6 +35,7 @@ const ProcessSection = () => {
               </div>
             ))}
           </div>
+          <p className="font-body text-muted-foreground text-sm mt-6 text-center">※ 講師將依據 AI 最新發展、保有調整課程內容之權利</p>
         </div>
 
         {/* 6-week coaching */}
