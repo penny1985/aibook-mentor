@@ -7,6 +7,7 @@ import bookstoreImg from "@/assets/bookstore-display.jpg";
 
 const ProblemSection = () => {
   return (
+    <>
     <section className="bg-background py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-4xl">
         {/* Problem intro */}
@@ -131,6 +132,7 @@ const ProblemSection = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
