@@ -3,13 +3,13 @@ const PricingSection = () => {
     <section className="bg-background py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-5xl">
         <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-16 text-center leading-[1.4]">
-          方案與<span className="text-accent-green">定價</span>
+          選擇最適合你的<span className="text-accent-green">方案</span>
         </h2>
 
         {/* Pricing cards */}
         <div className="grid md:grid-cols-2 gap-8 mb-16 max-w-4xl mx-auto">
           {/* Workshop only */}
-          <div className="border border-border rounded-lg overflow-hidden flex flex-col">
+          <div className="bg-white border border-border rounded-lg overflow-hidden flex flex-col shadow-sm">
             <div className="p-8 flex-1 flex flex-col">
               <h3 className="font-display text-2xl font-bold mb-2">一日工作坊</h3>
               <p className="font-body text-accent-gold text-sm font-medium mb-2">早鳥價 3/28 前</p>
@@ -27,28 +27,31 @@ const PricingSection = () => {
                 </ul>
               </div>
 
-              <p className="font-body text-muted-foreground text-sm mt-auto">適合想先試水溫的你</p>
-            </div>
+              <p className="font-body text-muted-foreground text-sm mt-auto mb-6">適合想先試水溫的你</p>
 
-            {/* Venue info for workshop */}
-            <div className="bg-secondary p-6 space-y-3">
-              <p className="font-body text-foreground text-sm font-medium">活動詳情</p>
-              <p className="font-body text-muted-foreground text-sm">
-                <span className="text-accent-gold">✓</span> 時間：10:00 - 17:00（含午休）
-              </p>
-              <div className="space-y-2">
-                <p className="font-body text-muted-foreground text-sm">
-                  <span className="text-accent-gold">✓</span> 4/11（五）台中：Monospace（台灣大道二段 2 號 16F-2）<span className="text-accent-gold text-xs">（暫定）</span>
-                </p>
-                <p className="font-body text-muted-foreground text-sm">
-                  <span className="text-accent-gold">✓</span> 4/12（六）高雄：WEE 威易（中正三路 55 號 27F）<span className="text-accent-gold text-xs">（暫定）</span>
-                </p>
+              <div className="space-y-3">
+                <a
+                  href="https://cart.cashier.ecpay.com.tw/qp/z5Z9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity"
+                >
+                  4/11 台中場報名
+                </a>
+                <a
+                  href="https://cart.cashier.ecpay.com.tw/qp/z6a5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center rounded-md border-2 border-accent-green text-accent-green font-body font-bold py-3 px-4 hover:bg-accent-green hover:text-white transition-colors"
+                >
+                  4/12 高雄場報名
+                </a>
               </div>
             </div>
           </div>
 
           {/* Full package - recommended */}
-          <div className="border-2 border-accent rounded-lg overflow-hidden flex flex-col relative">
+          <div className="bg-white border-2 border-accent rounded-lg overflow-hidden flex flex-col relative shadow-md">
             <span className="absolute top-0 left-0 right-0 bg-accent text-accent-foreground font-body text-sm font-bold px-4 py-2 text-center">
               推薦方案
             </span>
@@ -71,24 +74,27 @@ const PricingSection = () => {
                 </ul>
               </div>
 
-              <p className="font-body text-accent-green text-sm font-bold mt-auto flex items-center gap-2">
+              <p className="font-body text-accent-green text-sm font-bold mb-6 flex items-center gap-2">
                 <span className="text-accent-gold">★</span> 陪跑限額 5 人，額滿不加開
               </p>
-            </div>
 
-            {/* Venue info for full package */}
-            <div className="bg-secondary p-6 space-y-3">
-              <p className="font-body text-foreground text-sm font-medium">活動詳情</p>
-              <p className="font-body text-muted-foreground text-sm">
-                <span className="text-accent-gold">✓</span> 工作坊：10:00 - 17:00（含午休）
-              </p>
-              <p className="font-body text-muted-foreground text-sm">
-                <span className="text-accent-gold">✓</span> 陪跑：每週三線上 60-90 分鐘
-              </p>
-              <div className="space-y-2">
-                <p className="font-body text-muted-foreground text-sm">
-                  <span className="text-accent-gold">✓</span> 4/11（五）台中｜4/12（六）高雄
-                </p>
+              <div className="space-y-3 mt-auto">
+                <a
+                  href="https://cart.cashier.ecpay.com.tw/qp/z6cE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity"
+                >
+                  4/11 台中場報名
+                </a>
+                <a
+                  href="https://cart.cashier.ecpay.com.tw/qp/z6dF"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center rounded-md border-2 border-accent-green text-accent-green font-body font-bold py-3 px-4 hover:bg-accent-green hover:text-white transition-colors"
+                >
+                  4/12 高雄場報名
+                </a>
               </div>
             </div>
           </div>
@@ -102,13 +108,16 @@ const PricingSection = () => {
           </p>
         </div>
 
-        {/* Google Maps */}
+        {/* Session info & maps */}
         <div className="max-w-4xl mx-auto">
-          <h3 className="font-display text-2xl font-bold text-foreground mb-8 text-center">場地位置</h3>
-          <div className="grid sm:grid-cols-2 gap-6">
-            <div>
-              <p className="font-body text-foreground text-sm font-medium mb-2">📍 台中場：Monospace（暫定）</p>
-              <div className="rounded-lg overflow-hidden border border-border aspect-video">
+          <h3 className="font-display text-2xl font-bold text-foreground mb-8 text-center">場次資訊</h3>
+          <div className="grid sm:grid-cols-2 gap-8">
+            {/* Taichung */}
+            <div className="bg-white rounded-lg border border-border p-6 shadow-sm">
+              <p className="font-display text-lg font-bold text-foreground mb-1">📍 4/11（五）台中場</p>
+              <p className="font-body text-muted-foreground text-sm mb-1">Monospace（台灣大道二段 2 號 16F-2）<span className="text-accent-gold text-xs">（暫定）</span></p>
+              <p className="font-body text-muted-foreground text-sm mb-4">10:00 - 17:00（含午休）</p>
+              <div className="rounded-lg overflow-hidden border border-border aspect-video mb-4">
                 <iframe
                   src="https://maps.google.com/maps?q=Monospace+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B52%E8%99%9F&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%"
@@ -121,9 +130,13 @@ const PricingSection = () => {
                 />
               </div>
             </div>
-            <div>
-              <p className="font-body text-foreground text-sm font-medium mb-2">📍 高雄場：WEE 威易聯合辦公室（暫定）</p>
-              <div className="rounded-lg overflow-hidden border border-border aspect-video">
+
+            {/* Kaohsiung */}
+            <div className="bg-white rounded-lg border border-border p-6 shadow-sm">
+              <p className="font-display text-lg font-bold text-foreground mb-1">📍 4/12（六）高雄場</p>
+              <p className="font-body text-muted-foreground text-sm mb-1">WEE 威易聯合辦公室（中正三路 55 號 27F）<span className="text-accent-gold text-xs">（暫定）</span></p>
+              <p className="font-body text-muted-foreground text-sm mb-4">10:00 - 17:00（含午休）</p>
+              <div className="rounded-lg overflow-hidden border border-border aspect-video mb-4">
                 <iframe
                   src="https://maps.google.com/maps?q=22.6273,120.2959+(WEE+%E5%A8%81%E6%98%93%E8%81%AF%E5%90%88%E8%BE%A6%E5%85%AC%E5%AE%A4)&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%"
