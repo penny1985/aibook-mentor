@@ -1,4 +1,5 @@
 import notebookImg from "@/assets/blank-notebook.jpg";
+import publisherLossImg from "@/assets/publisher-loss-rate.png";
 
 const ProblemSection = () => {
   return (
@@ -27,9 +28,39 @@ const ProblemSection = () => {
           </div>
         </div>
 
+        {/* Why publish now */}
+        <div className="mb-20">
+          <h2 className="font-display text-3xl md:text-4xl font-black text-foreground leading-[1.4] mb-8">
+            為什麼現在出書，<br />比任何時候都重要
+          </h2>
+          <div className="space-y-6 font-body text-muted-foreground text-base leading-relaxed">
+            <p>
+              AI 來了。許多人正在被釋出市場、掙扎轉型、嘗試建立個人品牌。越來越多人搶著卡位，越晚出發越難佔到位置。
+            </p>
+            <p className="text-foreground font-semibold text-lg">
+              你可能會想：我經營社群就好了，為什麼非得出書？
+            </p>
+            <p>
+              社群力夠強嗎？演算法一改，你的文還能出圈嗎？就算用 AI 搬運了時事文或名人觀點衝流量，這些流量能轉換成收入嗎？大多數時候，答案是不行。
+            </p>
+            <p>
+              傳統出版的書，依舊是一張社會證明。證明這個人有料，證明這個議題有市場。網路上寫文的人成千上萬，但能出書的有幾個？這個門檻，先天就能幫你在市場上站穩腳跟。
+            </p>
+            <p>
+              曾經有個學員問我：「為什麼要出書？」我說：<span className="text-accent-green font-semibold">「我出書，就是讓你來上我的課還不會懷疑我的專業。」</span>
+            </p>
+            <p>
+              出書能協助你轉型、卡位、樹立專業形象。而在這個 AI 內容氾濫的時代，一本經過出版社篩選、編輯把關的實體書，反而成了最稀缺的信任貨幣。
+            </p>
+            <p className="text-foreground font-semibold text-lg">
+              但更現實的是：就算你終於決定要寫了，出版社也未必買單。因為出版社也有現實考量。
+            </p>
+          </div>
+        </div>
+
         {/* Market reality */}
-        <div className="border-l-4 border-accent-gold pl-8 mb-16">
-          <h3 className="font-display text-3xl font-bold text-foreground mb-6">出版社現在在想什麼</h3>
+        <div className="border-l-4 border-accent-gold pl-8 mb-8">
+          <h3 className="font-display text-3xl font-bold text-foreground mb-6">你清楚出版社需要什麼嗎？</h3>
           <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed">
             <p>
               台灣出版市場十五年來產值從 367 億腰斬到約 200 億。一般大眾書年銷量中位數只有 500 到 800 本，損益平衡點卻推升到 2,200 本。出版社每簽一本新書，有九成機率虧損。
@@ -41,6 +72,15 @@ const ProblemSection = () => {
               所以出版社現在看的，除了你的稿子品質，更關鍵的是：<span className="text-accent-green">「你有沒有能力幫這本書賣」</span>
             </p>
           </div>
+        </div>
+
+        {/* Publisher loss rate infographic */}
+        <div className="mb-16 rounded-lg overflow-hidden">
+          <img
+            src={publisherLossImg}
+            alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
+            className="w-full"
+          />
         </div>
 
         {/* Solution */}

@@ -20,13 +20,13 @@ const HeroSection = () => {
         </p>
 
         {/* Main headline */}
-        <h1 className="font-display text-foreground text-5xl md:text-6xl lg:text-7xl font-black leading-[1.5] mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+        <h1 className="font-display text-accent-green text-5xl md:text-6xl lg:text-7xl font-black leading-[1.5] mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
           AI 出書實戰班
         </h1>
 
         {/* Sub headline */}
         <p className="font-display text-accent-gold text-2xl md:text-3xl lg:text-4xl leading-[1.5] max-w-2xl mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          6 週帶你從企劃到投稿，並由總編親自回饋
+          6 週帶你從企劃到投稿
         </p>
 
         {/* Description */}
