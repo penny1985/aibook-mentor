@@ -1,11 +1,11 @@
-import heroImg from "@/assets/hero-nordic.jpg";
+import heroBanner from "@/assets/hero-banner.jpg";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background image with warm overlay */}
       <div className="absolute inset-0">
-        <img src={heroImg} alt="AI 出書實戰班工作坊現場" className="w-full h-full object-cover" />
+        <img src={heroBanner} alt="AI 出書實戰班" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/60 via-foreground/40 to-foreground/70" />
       </div>
 
