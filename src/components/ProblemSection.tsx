@@ -47,6 +47,9 @@ const ProblemSection = () => {
             </p>
             {/* Left-right: text + bookstore photo */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="rounded-lg overflow-hidden">
+                <img src={bookstoreImg} alt="書店商業推薦書展示" className="w-full rounded-lg" />
+              </div>
               <div className="space-y-6">
                 <p>
                   傳統出版的書，依舊是一張社會證明。證明這個人有料，證明這個議題有市場。網路上寫文的人成千上萬，但能出書的有幾個？這個門檻，先天就能幫你在市場上站穩腳跟。
@@ -57,9 +60,6 @@ const ProblemSection = () => {
                 <p>
                   出書能協助你轉型、卡位、樹立專業形象。而在這個 AI 內容氾濫的時代，一本經過出版社篩選、編輯把關的實體書，反而成了最稀缺的信任貨幣。
                 </p>
-              </div>
-              <div className="rounded-lg overflow-hidden">
-                <img src={bookstoreImg} alt="書店商業推薦書展示" className="w-full rounded-lg" />
               </div>
             </div>
 
