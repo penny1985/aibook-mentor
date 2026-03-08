@@ -1,5 +1,6 @@
 import notebookImg from "@/assets/blank-notebook.jpg";
 import publisherLossImg from "@/assets/publisher-loss-rate.png";
+import workshopPhoto from "@/assets/workshop-photo.jpg";
 
 const ProblemSection = () => {
   return (
@@ -31,7 +32,7 @@ const ProblemSection = () => {
         {/* Why publish now */}
         <div className="mb-20">
           <h2 className="font-display text-3xl md:text-4xl font-black text-foreground leading-[1.4] mb-8">
-            為什麼現在出書，<br />比任何時候都重要
+            為什麼現在出書，比任何時候都重要？
           </h2>
           <div className="space-y-6 font-body text-muted-foreground text-base leading-relaxed">
             <p>
@@ -61,6 +62,14 @@ const ProblemSection = () => {
         {/* Market reality */}
         <div className="border-l-4 border-accent-gold pl-8 mb-8">
           <h3 className="font-display text-3xl font-bold text-foreground mb-6">你清楚出版社需要什麼嗎？</h3>
+          {/* Publisher loss rate infographic */}
+          <div className="my-8 rounded-lg overflow-hidden">
+            <img
+              src={publisherLossImg}
+              alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
+              className="w-full"
+            />
+          </div>
           <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed">
             <p>
               台灣出版市場十五年來產值從 367 億腰斬到約 200 億。一般大眾書年銷量中位數只有 500 到 800 本，損益平衡點卻推升到 2,200 本。出版社每簽一本新書，有九成機率虧損。
@@ -74,28 +83,25 @@ const ProblemSection = () => {
           </div>
         </div>
 
-        {/* Publisher loss rate infographic */}
-        <div className="mb-16 rounded-lg overflow-hidden">
-          <img
-            src={publisherLossImg}
-            alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
-            className="w-full"
-          />
-        </div>
 
         {/* Solution */}
         <div className="bg-secondary rounded-lg p-8 md:p-12">
           <h3 className="font-display text-3xl md:text-4xl font-bold mb-6">
             一天打底，<span className="text-accent-gold">六週修到可以投出去</span>
           </h3>
-          <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed mb-8">
-            <p><strong className="text-accent-gold">第一步</strong> — 一日工作坊，用 AI 雙引擎從零完成書籍企劃書初版</p>
-            <p><strong className="text-accent-gold">第二步</strong> — 六週線上陪跑，Penny 帶你每週精修，從初版改到可投遞</p>
-            <p><strong className="text-accent-gold">第三步</strong> — 總編會客室，30 年出版資歷的賈俊國總編親自回饋你的企劃書</p>
+          <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
+            <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed">
+              <p><strong className="text-accent-gold">第一步</strong> — 一日工作坊，用 AI 雙引擎從零完成書籍企劃書初版</p>
+              <p><strong className="text-accent-gold">第二步</strong> — 六週線上陪跑，Penny 帶你每週精修，從初版改到可投遞</p>
+              <p><strong className="text-accent-gold">第三步</strong> — 總編會客室，30 年出版資歷的賈俊國總編親自回饋你的企劃書</p>
+              <p className="mt-4">
+                你不需要先寫好稿子才來。你只需要帶著「心裡那本書的模糊輪廓」走進教室。
+              </p>
+            </div>
+            <div className="rounded-lg overflow-hidden">
+              <img src={workshopPhoto} alt="Penny 工作坊上課實況" className="w-full rounded-lg" />
+            </div>
           </div>
-          <p className="font-body text-muted-foreground text-base mb-8">
-            你不需要先寫好稿子才來。你只需要帶著「心裡那本書的模糊輪廓」走進教室。
-          </p>
 
           {/* Deliverables */}
           <div className="border-t border-border pt-8">

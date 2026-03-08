@@ -5,7 +5,7 @@ const ProcessSection = () => {
     <section className="bg-secondary py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="font-display text-4xl md:text-5xl font-black mb-16 text-center leading-[1.4]">
-          服務<span className="text-accent-gold">流程</span>
+          課程<span className="text-accent-gold">流程</span>
         </h2>
 
         {/* Workshop */}
