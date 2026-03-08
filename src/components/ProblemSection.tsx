@@ -1,4 +1,5 @@
 import heroIllustration from "@/assets/hero-illustration.png";
+import whyPublishNowImg from "@/assets/why-publish-now.png";
 import sixWeekOutcomeImg from "@/assets/six-week-outcome.png";
 import publisherLossImg from "@/assets/publisher-loss-rate-user.png";
 import workshopPhoto from "@/assets/workshop-photo.jpg";
