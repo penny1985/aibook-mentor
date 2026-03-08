@@ -100,24 +100,16 @@ const PricingSection = () => {
           </div>
         </div>
 
-        {/* Why full package */}
-        <div className="bg-secondary rounded-lg p-8 mb-16 max-w-4xl mx-auto">
-          <h3 className="font-display text-xl font-bold text-foreground mb-3">為什麼推薦完整方案</h3>
-          <p className="font-body text-muted-foreground text-base leading-relaxed">
-            一天工作坊完成的是企劃書「初版」。要讓它變成出版社願意看的版本，需要反覆修改、專業回饋、投稿策略。這些都在六週陪跑裡。只有完整方案包含總編會客室。
-          </p>
-        </div>
-
-        {/* Session info & maps */}
-        <div className="max-w-4xl mx-auto">
-          <h3 className="font-display text-2xl font-bold text-foreground mb-8 text-center">場次資訊</h3>
+        {/* Session info & maps — light subheading, no big title */}
+        <div className="max-w-4xl mx-auto mb-12">
+          <p className="font-body text-muted-foreground text-sm font-medium mb-6 text-center tracking-wide uppercase">上課地點</p>
           <div className="grid sm:grid-cols-2 gap-8">
             {/* Taichung */}
             <div className="bg-white rounded-lg border border-border p-6 shadow-sm">
               <p className="font-display text-lg font-bold text-foreground mb-1">📍 4/11（五）台中場</p>
               <p className="font-body text-muted-foreground text-sm mb-1">Monospace（台灣大道二段 2 號 16F-2）<span className="text-accent-gold text-xs">（暫定）</span></p>
               <p className="font-body text-muted-foreground text-sm mb-4">10:00 - 17:00（含午休）</p>
-              <div className="rounded-lg overflow-hidden border border-border aspect-video mb-4">
+              <div className="rounded-lg overflow-hidden border border-border aspect-video">
                 <iframe
                   src="https://maps.google.com/maps?q=Monospace+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B52%E8%99%9F&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%"
@@ -136,7 +128,7 @@ const PricingSection = () => {
               <p className="font-display text-lg font-bold text-foreground mb-1">📍 4/12（六）高雄場</p>
               <p className="font-body text-muted-foreground text-sm mb-1">WEE 威易聯合辦公室（中正三路 55 號 27F）<span className="text-accent-gold text-xs">（暫定）</span></p>
               <p className="font-body text-muted-foreground text-sm mb-4">10:00 - 17:00（含午休）</p>
-              <div className="rounded-lg overflow-hidden border border-border aspect-video mb-4">
+              <div className="rounded-lg overflow-hidden border border-border aspect-video">
                 <iframe
                   src="https://maps.google.com/maps?q=22.6273,120.2959+(WEE+%E5%A8%81%E6%98%93%E8%81%AF%E5%90%88%E8%BE%A6%E5%85%AC%E5%AE%A4)&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%"
@@ -150,6 +142,14 @@ const PricingSection = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Why full package — moved to bottom as closing note */}
+        <div className="bg-secondary rounded-lg p-8 max-w-4xl mx-auto">
+          <h3 className="font-display text-xl font-bold text-foreground mb-3">為什麼推薦完整方案</h3>
+          <p className="font-body text-muted-foreground text-base leading-relaxed">
+            一天工作坊完成的是企劃書「初版」。要讓它變成出版社願意看的版本，需要反覆修改、專業回饋、投稿策略。這些都在六週陪跑裡。只有完整方案包含總編會客室。
+          </p>
         </div>
       </div>
     </section>
