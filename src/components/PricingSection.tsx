@@ -61,18 +61,11 @@ const PricingSection = () => {
         <div className="mt-16 border-t border-border pt-12">
           <h3 className="font-display text-2xl font-bold text-foreground mb-8 text-center">課程資訊</h3>
           
-          <div className="grid sm:grid-cols-2 gap-8 mb-8">
-            <div className="font-body text-base text-muted-foreground">
-              <p className="mb-2"><span className="text-foreground font-medium">課程：</span>AI 出書實戰班</p>
-              <p className="mb-2"><span className="text-foreground font-medium">日期：</span>4/11（五）台中｜4/12（六）高雄</p>
-              <p className="mb-2"><span className="text-foreground font-medium">時間：</span>10:00 - 17:00（含午休）</p>
-              <p className="mb-2"><span className="text-foreground font-medium">主辦：</span>閱讀塗鴉實驗室</p>
-              <p className="mb-2"><span className="text-foreground font-medium">講師：</span>陳沛孺 Penny</p>
-            </div>
-            <div className="font-body text-base text-muted-foreground">
-              <p className="mb-2"><span className="text-foreground font-medium">台中場地：</span>Monospace（台灣大道二段 2 號 16F-2）<span className="text-accent-gold text-sm">（暫定）</span></p>
-              <p className="mb-2"><span className="text-foreground font-medium">高雄場地：</span>WEE 威易聯合辦公室（中正三路 55 號 27F）<span className="text-accent-gold text-sm">（暫定）</span></p>
-            </div>
+          <div className="font-body text-base text-muted-foreground text-center mb-8 space-y-2">
+            <p><span className="text-foreground font-medium">日期：</span>4/11（五）台中｜4/12（六）高雄</p>
+            <p><span className="text-foreground font-medium">時間：</span>10:00 - 17:00（含午休）</p>
+            <p><span className="text-foreground font-medium">台中場地：</span>Monospace（台灣大道二段 2 號 16F-2）<span className="text-accent-gold text-sm">（暫定）</span></p>
+            <p><span className="text-foreground font-medium">高雄場地：</span>WEE 威易聯合辦公室（中正三路 55 號 27F）<span className="text-accent-gold text-sm">（暫定）</span></p>
           </div>
 
           {/* Google Maps */}
@@ -96,7 +89,7 @@ const PricingSection = () => {
               <p className="font-body text-foreground text-sm font-medium mb-2">📍 高雄場：WEE 威易聯合辦公室（暫定）</p>
               <div className="rounded-lg overflow-hidden border border-border aspect-video">
                 <iframe
-                  src="https://maps.google.com/maps?q=WEE+%E5%A8%81%E6%98%93%E8%81%AF%E5%90%88%E8%BE%A6%E5%85%AC%E5%AE%A4+%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E5%8D%80%E4%B8%AD%E6%AD%A3%E4%B8%89%E8%B7%AF55%E8%99%9F&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=22.6273,120.2959+(WEE+%E5%A8%81%E6%98%93%E8%81%AF%E5%90%88%E8%BE%A6%E5%85%AC%E5%AE%A4)&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
