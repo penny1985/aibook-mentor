@@ -1,4 +1,4 @@
-import heroIllustration from "@/assets/hero-illustration.jpg";
+import heroIllustration from "@/assets/hero-illustration.png";
 import publisherLossImg from "@/assets/publisher-loss-rate-user.png";
 import workshopPhoto from "@/assets/workshop-photo.jpg";
 import bookstoreImg from "@/assets/bookstore-display.jpg";
@@ -21,11 +21,11 @@ const ProblemSection = () => {
               但你遲遲沒有動筆——企劃書怎麼寫？投給哪家出版社？怎麼讓編輯願意打開你的信？光是這三個問題，就足以讓大部分人停在原地。
             </p>
           </div>
-          <div className="relative overflow-hidden rounded-lg">
+          <div className="flex items-center justify-center">
             <img
               src={heroIllustration}
               alt="拿著筆思考的女孩插畫"
-              className="w-full rounded-lg"
+              className="w-48 md:w-56 rounded-lg"
             />
           </div>
         </div>
