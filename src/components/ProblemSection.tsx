@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 import heroIllustration from "@/assets/hero-illustration.png";
 import whyPublishNowImg from "@/assets/why-publish-now.png";
 import sixWeekOutcomeImg from "@/assets/six-week-outcome.png";
@@ -6,6 +8,8 @@ import workshopPhoto from "@/assets/workshop-photo.jpg";
 import bookstoreImg from "@/assets/bookstore-display.jpg";
 
 const ProblemSection = () => {
+  const [zoomOpen, setZoomOpen] = useState(false);
+
   return (
     <>
     <section className="bg-background py-20 md:py-28">
@@ -82,7 +86,7 @@ const ProblemSection = () => {
         </div>
 
         {/* Market reality */}
-        <div className="border-l-4 border-accent-gold pl-8 mb-16">
+        <div className="border-l-4 border-accent-gold pl-8 mb-16 mt-20">
           <h3 className="font-display text-4xl font-bold text-foreground mb-6">你清楚出版社需要什麼嗎？</h3>
           {/* Publisher loss rate infographic */}
           <div className="my-8 rounded-lg overflow-hidden">
@@ -130,8 +134,24 @@ const ProblemSection = () => {
 
           {/* Deliverables */}
           <div className="border-t border-border pt-8">
-            <img src={sixWeekOutcomeImg} alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物" className="w-full max-w-2xl mx-auto rounded-lg" />
+            <img
+              src={sixWeekOutcomeImg}
+              alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物"
+              className="w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+              onClick={() => setZoomOpen(true)}
+            />
+            <p className="text-center text-muted-foreground/60 text-sm mt-2">點擊圖片放大檢視</p>
           </div>
+
+          <Dialog open={zoomOpen} onOpenChange={setZoomOpen}>
+            <DialogContent className="max-w-[95vw] md:max-w-4xl p-2">
+              <img
+                src={sixWeekOutcomeImg}
+                alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物"
+                className="w-full rounded-lg"
+              />
+            </DialogContent>
+          </Dialog>
 
           <p className="font-body text-muted-foreground text-lg mt-8">
             全程使用 Claude（結構思考與品質把關）+ Gemini（量產與市場對標）雙引擎，效率是傳統寫法的 3 到 5 倍。
