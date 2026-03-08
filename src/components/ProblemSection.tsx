@@ -98,8 +98,8 @@ const ProblemSection = () => {
             一天打底，<span className="text-accent-gold">六週修到符合業界標準</span>
           </h3>
           <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
-            <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed">
-              <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">
+            <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">
+              <p><strong className="text-accent-gold">第一步</strong> — 一日工作坊，用 AI 雙引擎從零完成書籍企劃書初版</p>
               <p><strong className="text-accent-gold">第二步</strong> — 六週線上陪跑，Penny 帶你每週精修，從初版改到符合出版社標準</p>
               <p><strong className="text-accent-gold">第三步</strong> — 總編會客室，30 年出版資歷的賈俊國總編親自回饋你的企劃書</p>
               <p className="mt-4">
