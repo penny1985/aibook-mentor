@@ -40,16 +40,13 @@ const ProblemSection = () => {
             className="w-full max-w-2xl mx-auto rounded-lg mb-8"
           />
           <div className="space-y-6 font-body text-muted-foreground text-lg leading-relaxed">
-            {/* Left-right: text + bookstore photo */}
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="rounded-lg overflow-hidden">
+            <div>
+              <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2">傳統出版的書，依舊是一張社會證明</h3>
+              <p className="text-muted-foreground/80 text-lg font-medium mb-6">證明這個人有料，證明這個議題有市場</p>
+              <div className="rounded-lg overflow-hidden mb-6">
                 <img src={bookstoreImg} alt="書店商業推薦書展示" className="w-full rounded-lg" />
               </div>
               <div className="space-y-6">
-                <div>
-                  <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2">傳統出版的書，依舊是一張社會證明</h3>
-                  <p className="text-muted-foreground/80 text-lg font-medium">證明這個人有料，證明這個議題有市場</p>
-                </div>
                 <p>
                   網路上寫文的人成千上萬，但能出書的有幾個？這個門檻，先天就能幫你在市場上站穩腳跟。
                 </p>
@@ -76,7 +73,7 @@ const ProblemSection = () => {
             <img
               src={publisherLossImg}
               alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
-              className="w-full max-w-2xl mx-auto"
+              className="w-full"
             />
           </div>
           <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">
