@@ -2,47 +2,67 @@ import heroBanner from "@/assets/hero-banner.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background image with warm overlay */}
-      <div className="absolute inset-0">
-        <img src={heroBanner} alt="AI 出書實戰班" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-foreground/30 via-transparent to-foreground/40" />
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
+      {/* Book image positioned on the right */}
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-full hidden md:block">
+        <img
+          src={heroBanner}
+          alt="AI 出書實戰班 — 翻開的書本"
+          className="w-full h-full object-contain object-right"
+        />
       </div>
 
       <div className="relative z-10 container mx-auto px-6 py-24 md:py-32 max-w-5xl">
-        {/* Top tag */}
-        <div className="mb-8 animate-fade-in flex flex-wrap gap-3">
-          <span className="inline-block bg-accent-gold text-foreground font-body text-base font-bold tracking-wide px-5 py-2 rounded">
-            3/28 前早鳥優惠
+        {/* Instructor name */}
+        <p className="font-body text-accent-gold text-base md:text-lg font-bold tracking-[0.2em] mb-6 animate-fade-in">
+          陳沛孺 PENNY
+        </p>
+
+        {/* Main headline */}
+        <h1 className="font-display text-foreground text-5xl md:text-6xl lg:text-7xl font-black leading-[1.5] mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+          AI 出書實戰班
+        </h1>
+
+        {/* Sub headline - italic style */}
+        <p className="font-display text-accent-gold text-2xl md:text-3xl lg:text-4xl leading-[1.5] max-w-2xl mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          6 週帶你從企劃到投稿，並由總編親自回饋
+        </p>
+
+        {/* Description */}
+        <p className="font-body text-muted-foreground text-lg md:text-xl leading-relaxed max-w-xl mb-10 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+          出書作者手把手陪跑 × AI 協作方法 × 資深總編親自審閱
+        </p>
+
+        {/* Info tags */}
+        <div className="flex flex-wrap gap-3 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+          <span className="inline-flex items-center border border-border font-body text-foreground text-base px-5 py-3 rounded">
+            4/11（五）台中
+          </span>
+          <span className="inline-flex items-center border border-border font-body text-foreground text-base px-5 py-3 rounded">
+            4/12（六）高雄
+          </span>
+          <span className="inline-flex items-center border border-border font-body text-foreground text-base px-5 py-3 rounded">
+            陪跑限額 5 人
           </span>
         </div>
 
-        {/* Main headline */}
-        <h1 className="font-display text-white text-5xl md:text-6xl lg:text-7xl font-black leading-[1.5] mb-8 animate-fade-in-up drop-shadow-lg" style={{ animationDelay: '0.1s' }}>
-          AI 出書實戰班
-          <br />
-          <span className="text-accent-gold">6 週帶你從企劃到投稿</span>
-        </h1>
-
-        {/* Sub headline */}
-        <p className="font-body text-white/90 text-xl md:text-2xl leading-relaxed max-w-2xl mb-4 animate-fade-in-up drop-shadow" style={{ animationDelay: '0.2s' }}>
-          出書作者陪跑 × AI 輔助 × 出版社資深總編審閱
-        </p>
-        <p className="font-body text-white/75 text-lg md:text-xl mb-12 animate-fade-in-up drop-shadow" style={{ animationDelay: '0.3s' }}>
-          讓你帶著一份可投遞的書籍企劃書離開
-        </p>
-
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          <a href="#cta"
-            className="inline-flex items-center justify-center bg-accent-gold text-foreground hover:opacity-90 font-bold tracking-wide text-lg px-8 py-4 rounded transition-colors shadow-lg">
-            立即報名
-          </a>
-          <a href="#process"
-            className="inline-flex items-center justify-center bg-white/20 backdrop-blur text-white hover:bg-white/30 font-body text-lg px-8 py-4 rounded transition-colors">
-            了解課程內容
+        <div className="mt-3 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+          <a
+            href="#pricing"
+            className="inline-flex items-center border border-border font-body text-foreground text-base px-5 py-3 rounded hover:border-accent-gold hover:text-accent-gold transition-colors"
+          >
+            早鳥 3/28 截止
           </a>
         </div>
+      </div>
+
+      {/* Mobile: show book image below text */}
+      <div className="md:hidden w-full px-6 pb-12">
+        <img
+          src={heroBanner}
+          alt="AI 出書實戰班 — 翻開的書本"
+          className="w-full object-contain"
+        />
       </div>
     </section>
   );
