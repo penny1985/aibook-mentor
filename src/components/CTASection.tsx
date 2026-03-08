@@ -15,7 +15,7 @@ const CTASection = () => {
           href="#pricing"
           className="inline-flex items-center justify-center bg-accent-gold text-foreground hover:opacity-90 font-bold tracking-wide text-lg px-10 py-4 rounded transition-colors shadow-lg"
         >
-          立即報名，讓世界知道你的厲害
+          立即報名，讓世界知道你的專業
         </a>
 
         <div className="flex justify-center gap-4 mt-8">
