@@ -31,7 +31,7 @@ const Navbar = () => {
           ))}
           <a
             href="#cta"
-            className="bg-accent-gold text-foreground font-bold text-base px-5 py-2 rounded hover:opacity-90 transition-opacity"
+            className="bg-accent-gold text-white font-bold text-base px-5 py-2 rounded hover:opacity-90 transition-opacity"
           >
             立即報名
           </a>
