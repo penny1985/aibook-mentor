@@ -23,9 +23,25 @@ const CasesSection = () => {
         <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-4 text-center leading-[1.4]">
           他們出了書<span className="text-accent-green">之後</span>
         </h2>
-        <p className="font-body text-muted-foreground text-center mb-16 max-w-2xl mx-auto text-base">
+        <p className="font-body text-muted-foreground text-center mb-10 max-w-2xl mx-auto text-base">
           在《閱讀爆米花》Podcast 中，Penny 深度訪談了六位出過書的創業者與講師。每一位的版稅都只占收入的極小比例，真正的回報來自出書帶來的身份升級和商業轉換。
         </p>
+
+        {/* YouTube embed */}
+        <div className="max-w-2xl mx-auto mb-16">
+          <div className="aspect-video rounded-lg overflow-hidden border border-border">
+            <iframe
+              src="https://www.youtube.com/embed/8IUc5Bi4VtM"
+              title="閱讀爆米花 Podcast"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
+        </div>
 
         {/* Case studies */}
         <div className="grid md:grid-cols-2 gap-6 mb-16">
