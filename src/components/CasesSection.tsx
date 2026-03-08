@@ -1,4 +1,5 @@
 import pennyImg from "@/assets/penny-chen.jpg";
+import studentGroupImg from "@/assets/student-group.jpg";
 
 const cases = [
   { name: "陳顯立", title: "好廣告數據創辦人，《流量新紅利時代》《信任效應》（即將出版）作者", result: "用一本書打進台灣前 500 大企業，公司營收一年暴增一億。他說書是最能建立信任的「高級名片」。" },
@@ -90,6 +91,9 @@ const CasesSection = () => {
           <h3 className="font-display text-3xl font-bold text-foreground mb-8">
             上過 Penny 課的人<span className="text-accent-green">這樣說</span>
           </h3>
+          <div className="rounded-lg overflow-hidden mb-10">
+            <img src={studentGroupImg} alt="學員合照" className="w-full rounded-lg" />
+          </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {testimonials.map((t, i) => (
               <div key={i} className="bg-secondary rounded-lg p-6">

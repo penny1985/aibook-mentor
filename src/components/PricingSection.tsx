@@ -6,6 +6,14 @@ const PricingSection = () => {
           方案與<span className="text-accent-green">定價</span>
         </h2>
 
+        {/* Course info */}
+        <div className="font-body text-base text-muted-foreground text-center mb-12 space-y-2">
+          <p><span className="text-foreground font-medium">日期：</span>4/11（五）台中｜4/12（六）高雄</p>
+          <p><span className="text-foreground font-medium">時間：</span>10:00 - 17:00（含午休）</p>
+          <p><span className="text-foreground font-medium">台中場地：</span>Monospace（台灣大道二段 2 號 16F-2）<span className="text-accent-gold text-sm">（暫定）</span></p>
+          <p><span className="text-foreground font-medium">高雄場地：</span>WEE 威易聯合辦公室（中正三路 55 號 27F）<span className="text-accent-gold text-sm">（暫定）</span></p>
+        </div>
+
         {/* Pricing cards */}
         <div className="grid md:grid-cols-2 gap-8 mb-16 max-w-3xl mx-auto">
           {/* Workshop only */}
@@ -50,25 +58,16 @@ const PricingSection = () => {
         </div>
 
         {/* Why full package */}
-        <div className="bg-secondary rounded-lg p-8">
+        <div className="bg-secondary rounded-lg p-8 mb-16">
           <h3 className="font-display text-xl font-bold text-foreground mb-3">為什麼推薦完整方案</h3>
           <p className="font-body text-muted-foreground text-base leading-relaxed">
             一天工作坊完成的是企劃書「初版」。要讓它變成出版社願意看的版本，需要反覆修改、專業回饋、投稿策略。這些都在六週陪跑裡。只有完整方案包含總編會客室。
           </p>
         </div>
 
-        {/* Course info + Maps */}
-        <div className="mt-16 border-t border-border pt-12">
-          <h3 className="font-display text-2xl font-bold text-foreground mb-8 text-center">課程資訊</h3>
-          
-          <div className="font-body text-base text-muted-foreground text-center mb-8 space-y-2">
-            <p><span className="text-foreground font-medium">日期：</span>4/11（五）台中｜4/12（六）高雄</p>
-            <p><span className="text-foreground font-medium">時間：</span>10:00 - 17:00（含午休）</p>
-            <p><span className="text-foreground font-medium">台中場地：</span>Monospace（台灣大道二段 2 號 16F-2）<span className="text-accent-gold text-sm">（暫定）</span></p>
-            <p><span className="text-foreground font-medium">高雄場地：</span>WEE 威易聯合辦公室（中正三路 55 號 27F）<span className="text-accent-gold text-sm">（暫定）</span></p>
-          </div>
-
-          {/* Google Maps */}
+        {/* Google Maps */}
+        <div>
+          <h3 className="font-display text-2xl font-bold text-foreground mb-8 text-center">場地位置</h3>
           <div className="grid sm:grid-cols-2 gap-6">
             <div>
               <p className="font-body text-foreground text-sm font-medium mb-2">📍 台中場：Monospace（暫定）</p>
