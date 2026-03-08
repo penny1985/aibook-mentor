@@ -130,7 +130,7 @@ const PricingSection = () => {
               <p className="font-body text-muted-foreground text-sm mb-4">10:00 - 17:00（含午休）</p>
               <div className="rounded-lg overflow-hidden border border-border aspect-video">
                 <iframe
-                  src="https://maps.google.com/maps?q=WEE%20%E5%A8%81%E6%98%93%E8%81%AF%E5%90%88%E8%BE%A6%E5%85%AC%E5%AE%A4%20%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%B0%E8%88%88%E5%8D%80%E4%B8%AD%E6%AD%A3%E4%B8%89%E8%B7%AF55%E8%99%9F27F&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=22.6308,120.3006&z=17&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -145,7 +145,7 @@ const PricingSection = () => {
         </div>
 
         {/* Why full package — moved to bottom as closing note */}
-        <div className="bg-card border border-border rounded-lg p-8 max-w-4xl mx-auto">
+        <div className="bg-white border border-border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
           <h3 className="font-display text-xl font-bold text-foreground mb-3">為什麼推薦完整方案</h3>
           <p className="font-body text-muted-foreground text-base leading-relaxed">
             一天工作坊完成的是企劃書「初版」。要讓它變成出版社願意看的版本，需要反覆修改、專業回饋、投稿策略。這些都在六週陪跑裡。只有完整方案包含總編會客室。

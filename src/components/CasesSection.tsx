@@ -79,7 +79,7 @@ const CasesSection = () => {
         <div className="w-24 h-1 bg-accent mx-auto mb-20" />
 
         {/* Penny intro */}
-        <div className="max-w-4xl mx-auto mb-20 bg-card border border-border rounded-lg p-8 md:p-10">
+        <div className="max-w-4xl mx-auto mb-20 bg-white border border-border rounded-lg p-8 md:p-10 shadow-sm">
           <h3 className="font-display text-3xl font-bold text-foreground mb-8">
             為什麼 Penny 能帶這門課
           </h3>
