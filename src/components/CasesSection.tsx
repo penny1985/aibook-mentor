@@ -1,5 +1,5 @@
 import pennyImg from "@/assets/penny-chen.jpg";
-import studentGroupImg from "@/assets/student-group.jpg";
+import studentGroupImg from "@/assets/student-group-v2.jpg";
 
 const cases = [
   { name: "陳顯立", title: "好廣告數據創辦人，《流量新紅利時代》《信任效應》（即將出版）作者", result: "用一本書打進台灣前 500 大企業，公司營收一年暴增一億。他說書是最能建立信任的「高級名片」。" },
@@ -41,6 +41,16 @@ const CasesSection = () => {
               loading="lazy"
             />
           </div>
+          <p className="text-center mt-4">
+            <a
+              href="https://podcasts.apple.com/tw/podcast/%E9%96%B1%E8%AE%80%E7%88%86%E7%B1%B3%E8%8A%B1/id1831690831"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-body text-accent-green text-base font-medium underline hover:text-accent-gold transition-colors"
+            >
+              🎧 想聽更多內容請到《閱讀爆米花》
+            </a>
+          </p>
         </div>
 
         {/* Case studies */}

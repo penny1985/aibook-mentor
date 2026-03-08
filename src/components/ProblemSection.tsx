@@ -1,5 +1,5 @@
 import notebookImg from "@/assets/blank-notebook.jpg";
-import publisherLossImg from "@/assets/publisher-loss-rate.png";
+import publisherLossImg from "@/assets/publisher-loss-rate-v2.png";
 import workshopPhoto from "@/assets/workshop-photo.jpg";
 import bookstoreImg from "@/assets/bookstore-display.jpg";
 

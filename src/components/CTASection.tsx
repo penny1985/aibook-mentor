@@ -8,14 +8,14 @@ const CTASection = () => {
         </h2>
 
         <p className="font-body text-muted-foreground text-base leading-relaxed max-w-2xl mx-auto mb-12">
-          出書作者手把手陪跑，AI 幫你加速，資深總編幫你把關。做好心理準備，勇敢跨出第一步吧。
+          出書作者手把手陪跑，AI 幫你加速，資深總編幫你把關，錯過四月班，下一梯十月才會再開，幫自己在未來卡一個專業位置吧
         </p>
 
         <a
           href="#pricing"
           className="inline-flex items-center justify-center bg-accent-gold text-foreground hover:opacity-90 font-bold tracking-wide text-lg px-10 py-4 rounded transition-colors shadow-lg"
         >
-          早鳥 3/28 截止
+          立即報名，讓世界知道你的厲害
         </a>
 
         <div className="flex justify-center gap-4 mt-8">
