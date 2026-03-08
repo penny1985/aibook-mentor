@@ -102,7 +102,7 @@ const PricingSection = () => {
 
         {/* Session info & maps — light subheading, no big title */}
         <div className="max-w-4xl mx-auto mb-12">
-          <p className="font-body text-muted-foreground text-sm font-medium mb-6 text-center tracking-wide uppercase">上課地點</p>
+          <p className="font-display text-2xl font-bold text-foreground mb-6 text-center">上課地點</p>
           <div className="grid sm:grid-cols-2 gap-8">
             {/* Taichung */}
             <div className="bg-white rounded-lg border border-border p-6 shadow-sm">

@@ -35,7 +35,7 @@ const ProcessSection = () => {
               </div>
             ))}
           </div>
-          <p className="font-body text-muted-foreground text-sm mt-6 text-center">※ 講師將依據 AI 最新發展、保有調整課程內容之權利</p>
+          
         </div>
 
         {/* 6-week coaching */}
@@ -107,6 +107,7 @@ const ProcessSection = () => {
             </p>
           </div>
           <p className="font-body text-accent-green text-base font-bold mt-6">陪跑限額 5 人，額滿不加開</p>
+          <p className="font-body text-muted-foreground text-sm mt-4">※ 講師將依據 AI 最新發展、保有調整課程內容之權利</p>
           <a href="https://facebook.com/daniel.editorinchief" target="_blank" rel="noopener noreferrer"
             className="inline-block mt-4 font-body text-muted-foreground text-base underline hover:text-accent-gold transition-colors">
             → 如何出版一本書（Facebook）
