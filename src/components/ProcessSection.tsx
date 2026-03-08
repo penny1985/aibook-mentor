@@ -74,7 +74,7 @@ const ProcessSection = () => {
         {/* Editor highlight */}
         <div className="bg-background border-2 border-accent-gold rounded-lg p-8 md:p-12">
           <h3 className="font-display text-3xl font-bold mb-6 leading-[1.4]">
-            陪跑班<span className="text-accent-gold">專屬好康</span>
+            陪跑班<span className="text-accent-gold">專屬好康：總編會客室</span>
           </h3>
           <div className="grid md:grid-cols-[200px_1fr] gap-8 items-start mb-6">
             <div>
