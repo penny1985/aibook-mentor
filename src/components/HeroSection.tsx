@@ -25,7 +25,7 @@ const HeroSection = () => {
         </h1>
 
         {/* Sub headline */}
-        <p className="font-display text-accent-gold text-2xl md:text-3xl lg:text-4xl leading-[1.5] max-w-2xl mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+        <p className="font-display text-accent-green text-2xl md:text-3xl lg:text-4xl leading-[1.5] max-w-2xl mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
           6 週帶你從企劃到投稿
         </p>
 
