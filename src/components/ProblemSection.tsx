@@ -46,8 +46,12 @@ const ProblemSection = () => {
                 <img src={bookstoreImg} alt="書店商業推薦書展示" className="w-full rounded-lg" />
               </div>
               <div className="space-y-6">
+                <div>
+                  <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2">傳統出版的書，依舊是一張社會證明</h3>
+                  <p className="text-muted-foreground/80 text-lg font-medium">證明這個人有料，證明這個議題有市場</p>
+                </div>
                 <p>
-                  傳統出版的書，依舊是一張社會證明。證明這個人有料，證明這個議題有市場。網路上寫文的人成千上萬，但能出書的有幾個？這個門檻，先天就能幫你在市場上站穩腳跟。
+                  網路上寫文的人成千上萬，但能出書的有幾個？這個門檻，先天就能幫你在市場上站穩腳跟。
                 </p>
                 <p>
                   曾經有個學員問我：「為什麼要出書？出書能幹嘛？」我說：<span className="text-accent-green font-semibold">「我出書，能讓你不會懷疑我的專業，還來上我的課。」</span>
