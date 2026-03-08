@@ -12,13 +12,13 @@ const ProblemSection = () => {
 
   return (
     <>
-    <section className="bg-background py-20 md:py-28">
+    <section className="bg-background py-20 md:py-28" aria-labelledby="problem-heading">
       <div className="container mx-auto px-6 max-w-4xl">
         {/* Problem intro */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <div className="flex items-center gap-4 mb-6">
-              <h2 className="font-display text-4xl md:text-5xl font-black text-foreground leading-[1.4] flex-1">
+              <h2 id="problem-heading" className="font-display text-4xl md:text-5xl font-black text-foreground leading-[1.4] flex-1">
                 你心裡那本書<br className="hidden md:inline" />
                 <span className="text-accent-gold">卡了多久了？</span>
               </h2>
@@ -65,7 +65,7 @@ const ProblemSection = () => {
             <h3 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-3 text-center">傳統出版的書，依舊是一張社會證明</h3>
             <p className="text-muted-foreground/80 text-xl font-medium mb-8 text-center">證明這個人有料，證明這個議題有市場</p>
             <div className="rounded-lg overflow-hidden mb-6 max-w-2xl mx-auto">
-              <img src={bookstoreImg} alt="書店商業推薦書展示" className="w-full rounded-lg" />
+              <img src={bookstoreImg} alt="書店暢銷書展示區，傳統出版書籍作為專業社會證明" className="w-full rounded-lg" />
             </div>
             <div className="space-y-6">
               <p>
@@ -87,7 +87,7 @@ const ProblemSection = () => {
 
         {/* Market reality */}
         <div className="border-l-4 border-accent-gold pl-8 mb-16 mt-20">
-          <h3 className="font-display text-4xl font-bold text-foreground mb-6">你清楚出版社需要什麼嗎？</h3>
+          <h3 id="publisher-reality" className="font-display text-4xl font-bold text-foreground mb-6">出版社現在要的是什麼？<span className="sr-only">素人投稿的現實</span></h3>
           {/* Publisher loss rate infographic */}
           <div className="my-8 rounded-lg overflow-hidden">
             <img
@@ -128,7 +128,7 @@ const ProblemSection = () => {
               </p>
             </div>
             <div className="rounded-lg overflow-hidden">
-              <img src={workshopPhoto} alt="Penny 工作坊上課實況" className="w-full rounded-lg" />
+              <img src={workshopPhoto} alt="陳沛孺 Penny 在台中 AI 出書實戰班工作坊帶領學員實作企劃書" className="w-full rounded-lg" />
             </div>
           </div>
 

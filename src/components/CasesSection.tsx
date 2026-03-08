@@ -18,9 +18,9 @@ const testimonials = [
 
 const CasesSection = () => {
   return (
-    <section className="bg-background py-20 md:py-28">
+    <section className="bg-background py-20 md:py-28" aria-labelledby="cases-heading">
       <div className="container mx-auto px-6 max-w-5xl">
-        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-4 text-center leading-[1.4]">
+        <h2 id="cases-heading" className="font-display text-4xl md:text-5xl font-black text-foreground mb-4 text-center leading-[1.4]">
           他們出了書<span className="text-accent-green">之後</span>
         </h2>
         <p className="font-body text-muted-foreground text-center mb-10 max-w-2xl mx-auto text-base">
@@ -85,7 +85,7 @@ const CasesSection = () => {
           </h3>
           <div className="grid md:grid-cols-[280px_1fr] gap-8 items-start">
             <div className="relative">
-              <img src={pennyImg} alt="講師陳沛孺 Penny" className="w-full rounded-lg shadow-lg" />
+              <img src={pennyImg} alt="AI 出書實戰班講師陳沛孺 Penny，《用AI打造素人影響力》作者" className="w-full rounded-lg shadow-lg" />
               <a
                 href="https://www.books.com.tw/products/0011021616"
                 target="_blank"
@@ -118,7 +118,7 @@ const CasesSection = () => {
             上過 Penny 課的人<span className="text-accent-green">這樣說</span>
           </h3>
           <div className="rounded-lg overflow-hidden mb-10">
-            <img src={studentGroupImg} alt="學員合照" className="w-full rounded-lg" />
+            <img src={studentGroupImg} alt="AI 出書實戰班學員課後合照，Penny 與學員在工作坊現場" className="w-full rounded-lg" />
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {testimonials.map((t, i) => (

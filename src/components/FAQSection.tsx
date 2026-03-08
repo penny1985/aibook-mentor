@@ -45,10 +45,10 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="bg-secondary py-20 md:py-28">
+    <section className="bg-secondary py-20 md:py-28" aria-labelledby="faq-heading">
       <div className="container mx-auto px-6 max-w-3xl">
-        <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-16 text-center leading-[1.4]">
-          常見<span className="text-accent-green">問題</span>
+        <h2 id="faq-heading" className="font-display text-4xl md:text-5xl font-black text-foreground mb-16 text-center leading-[1.4]">
+          AI 出書實戰班<span className="text-accent-green">常見問題</span>
         </h2>
 
         <Accordion type="single" collapsible className="mb-16">

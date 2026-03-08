@@ -12,7 +12,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border" aria-label="主要導覽">
       <div className="container mx-auto px-6 max-w-5xl flex items-center justify-between h-16">
         <a href="#" className="font-display text-foreground text-lg font-bold">
           AI 出書實戰班

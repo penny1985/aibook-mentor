@@ -1,8 +1,8 @@
 const CTASection = () => {
   return (
-    <section className="bg-white py-20 md:py-28">
+    <section className="bg-white py-20 md:py-28" aria-labelledby="cta-heading">
       <div className="container mx-auto px-6 max-w-4xl text-center">
-        <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-[1.5] mb-6">
+        <h2 id="cta-heading" className="font-display text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-[1.5] mb-6">
           你心裡那本書，<br />
           <span className="text-accent-gold">打算再等幾年？</span>
         </h2>

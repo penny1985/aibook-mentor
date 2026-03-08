@@ -2,7 +2,7 @@ import heroBanner from "@/assets/hero-banner.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center overflow-hidden" aria-labelledby="hero-heading">
       {/* Full-bleed background image */}
       <div className="absolute inset-0">
         <img
@@ -20,7 +20,7 @@ const HeroSection = () => {
         </p>
 
         {/* Main headline */}
-        <h1 className="font-display text-accent-green text-5xl md:text-6xl lg:text-7xl font-black leading-[1.5] mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+        <h1 id="hero-heading" className="font-display text-accent-green text-5xl md:text-6xl lg:text-7xl font-black leading-[1.5] mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
           AI 出書實戰班
         </h1>
 
