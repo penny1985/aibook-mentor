@@ -1,4 +1,5 @@
 import heroIllustration from "@/assets/hero-illustration.png";
+import sixWeekOutcomeImg from "@/assets/six-week-outcome.png";
 import publisherLossImg from "@/assets/publisher-loss-rate-user.png";
 import workshopPhoto from "@/assets/workshop-photo.jpg";
 import bookstoreImg from "@/assets/bookstore-display.jpg";
@@ -115,25 +116,7 @@ const ProblemSection = () => {
 
           {/* Deliverables */}
           <div className="border-t border-border pt-8">
-            <h4 className="font-display text-xl font-bold mb-4">六週結束時，你手上會有：</h4>
-            <ul className="space-y-2 font-body text-muted-foreground text-base">
-              <li className="flex items-start gap-3">
-                <span className="text-accent-gold mt-1">●</span>
-                一份經過總編親自回饋、修改過兩輪以上的完整書籍企劃書
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-accent-gold mt-1">●</span>
-                1-2 個試寫章節
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-accent-gold mt-1">●</span>
-                一封投稿信 + 適合你的出版社清單
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-accent-gold mt-1">●</span>
-                神秘小禮物
-              </li>
-            </ul>
+            <img src={sixWeekOutcomeImg} alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物" className="w-full rounded-lg" />
           </div>
 
           <p className="font-body text-muted-foreground text-base mt-8">
