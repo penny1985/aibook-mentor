@@ -122,7 +122,7 @@ const CasesSection = () => {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {testimonials.map((t, i) => (
-              <div key={i} className="bg-secondary rounded-lg p-6">
+              <div key={i} className="bg-white rounded-lg p-6">
                 <p className="font-body text-muted-foreground text-base leading-relaxed mb-4">「{t.quote}」</p>
                 <p className="font-body text-foreground text-base font-medium">— {t.name}</p>
               </div>
