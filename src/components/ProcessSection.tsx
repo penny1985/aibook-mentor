@@ -2,10 +2,11 @@ import editorImg from "@/assets/editor-jia.jpg";
 
 const ProcessSection = () => {
   return (
-    <section className="bg-white py-20 md:py-28">
+    <section className="bg-white py-20 md:py-28" aria-labelledby="process-heading">
       <div className="container mx-auto px-6 max-w-4xl">
-        <h2 className="font-display text-4xl md:text-5xl font-black mb-16 text-center leading-[1.4]">
-          課程<span className="text-accent-gold">流程</span>
+        <h2 id="process-heading" className="font-display text-4xl md:text-5xl font-black mb-16 text-center leading-[1.4]">
+          AI 出書實戰班怎麼上？<span className="sr-only">完整課程流程</span><br />
+          <span className="text-accent-gold">完整課程流程</span>
         </h2>
 
         {/* Workshop */}
@@ -78,7 +79,7 @@ const ProcessSection = () => {
           </h3>
           <div className="grid md:grid-cols-[200px_1fr] gap-8 items-start mb-6">
             <div>
-              <img src={editorImg} alt="賈俊國總編" className="w-full rounded-lg shadow-lg" />
+              <img src={editorImg} alt="布克文化總編輯賈俊國，30 年出版資歷，經手超過 500 本暢銷書" className="w-full rounded-lg shadow-lg" />
             </div>
             <div>
               <p className="font-body text-muted-foreground text-lg leading-relaxed mb-4">
