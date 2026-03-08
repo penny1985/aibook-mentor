@@ -130,7 +130,7 @@ const PricingSection = () => {
               <p className="font-body text-muted-foreground text-sm mb-4">10:00 - 17:00（含午休）</p>
               <div className="rounded-lg overflow-hidden border border-border aspect-video">
                 <iframe
-                  src="https://www.google.com/maps?output=embed&q=%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%B0%E8%88%88%E5%8D%80%E4%B8%AD%E6%AD%A3%E4%B8%89%E8%B7%AF55%E8%99%9F"
+                  src="https://maps.google.com/maps?q=WEE+%E5%A8%81%E6%98%93%E8%81%AF%E5%90%88%E8%BE%A6%E5%85%AC%E5%AE%A4&t=&z=17&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

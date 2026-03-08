@@ -1,4 +1,4 @@
-import notebookImg from "@/assets/blank-notebook.jpg";
+import heroIllustration from "@/assets/hero-illustration.jpg";
 import publisherLossImg from "@/assets/publisher-loss-rate-user.png";
 import workshopPhoto from "@/assets/workshop-photo.jpg";
 import bookstoreImg from "@/assets/bookstore-display.jpg";
@@ -12,7 +12,7 @@ const ProblemSection = () => {
           <div>
             <h2 className="font-display text-4xl md:text-5xl font-black text-foreground leading-[1.4] mb-6">
               你心裡那本書，<br />
-              <span className="text-accent-gold">卡了多久了</span>
+              <span className="text-accent-gold">卡了多久了？</span>
             </h2>
             <p className="font-body text-muted-foreground text-base leading-relaxed mb-4">
               你心裡一直有一本書想寫。可能是十年教學經驗的總結，可能是一套獨家方法論，可能是一段值得被記錄的專業歷程。
@@ -23,9 +23,9 @@ const ProblemSection = () => {
           </div>
           <div className="relative overflow-hidden rounded-lg">
             <img
-              src={notebookImg}
-              alt="空白筆記本"
-              className="w-full rounded-lg scale-105 origin-top-left"
+              src={heroIllustration}
+              alt="拿著筆思考的女孩插畫"
+              className="w-full rounded-lg"
             />
           </div>
         </div>
