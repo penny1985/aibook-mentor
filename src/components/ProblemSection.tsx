@@ -16,10 +16,10 @@ const ProblemSection = () => {
               你心裡那本書，<br />
               <span className="text-accent-gold">卡了多久了？</span>
             </h2>
-            <p className="font-body text-muted-foreground text-base leading-relaxed mb-4">
+            <p className="font-body text-muted-foreground text-lg leading-relaxed mb-4">
               你心裡一直有一本書想寫。可能是十年教學經驗的總結，可能是一套獨家方法論，可能是一段值得被記錄的專業歷程。
             </p>
-            <p className="font-body text-muted-foreground text-base leading-relaxed">
+            <p className="font-body text-muted-foreground text-lg leading-relaxed">
               但你遲遲沒有動筆——企劃書怎麼寫？投給哪家出版社？怎麼讓編輯願意打開你的信？光是這三個問題，就足以讓大部分人停在原地。
             </p>
           </div>
@@ -37,9 +37,9 @@ const ProblemSection = () => {
           <img
             src={whyPublishNowImg}
             alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
-            className="w-full rounded-lg mb-8"
+            className="w-full max-w-2xl mx-auto rounded-lg mb-8"
           />
-          <div className="space-y-6 font-body text-muted-foreground text-base leading-relaxed">
+          <div className="space-y-6 font-body text-muted-foreground text-lg leading-relaxed">
             {/* Left-right: text + bookstore photo */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="rounded-lg overflow-hidden">
@@ -58,7 +58,7 @@ const ProblemSection = () => {
               </div>
             </div>
 
-            <p className="text-foreground font-semibold text-lg mt-6">
+            <p className="text-foreground font-semibold text-xl mt-6">
               但更現實的是：就算你終於決定要寫了，出版社也未必買單。因為出版社也有現實考量。
             </p>
           </div>
@@ -66,23 +66,23 @@ const ProblemSection = () => {
 
         {/* Market reality */}
         <div className="border-l-4 border-accent-gold pl-8 mb-28">
-          <h3 className="font-display text-3xl font-bold text-foreground mb-6">你清楚出版社需要什麼嗎？</h3>
+          <h3 className="font-display text-4xl font-bold text-foreground mb-6">你清楚出版社需要什麼嗎？</h3>
           {/* Publisher loss rate infographic */}
           <div className="my-8 rounded-lg overflow-hidden">
             <img
               src={publisherLossImg}
               alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
-              className="w-full"
+              className="w-full max-w-2xl mx-auto"
             />
           </div>
-          <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed">
+          <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">
             <p>
               一般大眾書年銷量中位數只有 500 到 800 本，損益平衡點卻推升到 2,200 本
             </p>
             <p>
               首刷量從三千本縮到一千兩百本，翻譯書持續壓縮本土作者的空間
             </p>
-            <p className="text-foreground font-semibold text-lg">
+            <p className="text-foreground font-semibold text-xl">
               所以出版社現在看的，除了你的稿子品質，更關鍵的是這件事：<span className="text-accent-green">「你有沒有能力幫賣這本書？」</span>
             </p>
             <p>
@@ -98,7 +98,7 @@ const ProblemSection = () => {
             一天打底，<span className="text-accent-gold">六週修到符合業界標準</span>
           </h3>
           <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
-            <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed">
+            <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">
               <p><strong className="text-accent-gold">第一步</strong> — 一日工作坊，用 AI 雙引擎從零完成書籍企劃書初版</p>
               <p><strong className="text-accent-gold">第二步</strong> — 六週線上陪跑，Penny 帶你每週精修，從初版改到符合出版社標準</p>
               <p><strong className="text-accent-gold">第三步</strong> — 總編會客室，30 年出版資歷的賈俊國總編親自回饋你的企劃書</p>
@@ -113,10 +113,10 @@ const ProblemSection = () => {
 
           {/* Deliverables */}
           <div className="border-t border-border pt-8">
-            <img src={sixWeekOutcomeImg} alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物" className="w-full rounded-lg" />
+            <img src={sixWeekOutcomeImg} alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物" className="w-full max-w-2xl mx-auto rounded-lg" />
           </div>
 
-          <p className="font-body text-muted-foreground text-base mt-8">
+          <p className="font-body text-muted-foreground text-lg mt-8">
             全程使用 Claude（結構思考與品質把關）+ Gemini（量產與市場對標）雙引擎，效率是傳統寫法的 3 到 5 倍。
           </p>
         </div>
