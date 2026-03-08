@@ -33,7 +33,7 @@ const ProblemSection = () => {
         </div>
 
         {/* Why publish now */}
-        <div className="mb-28">
+        <div className="mb-28 bg-white rounded-lg p-8 md:p-12">
           <img
             src={whyPublishNowImg}
             alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
