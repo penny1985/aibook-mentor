@@ -1,4 +1,5 @@
 import heroIllustration from "@/assets/hero-illustration.png";
+import whyPublishNowImg from "@/assets/why-publish-now.png";
 import sixWeekOutcomeImg from "@/assets/six-week-outcome.png";
 import publisherLossImg from "@/assets/publisher-loss-rate-user.png";
 import workshopPhoto from "@/assets/workshop-photo.jpg";
@@ -33,19 +34,12 @@ const ProblemSection = () => {
 
         {/* Why publish now */}
         <div className="mb-28">
-          <h2 className="font-display text-3xl md:text-4xl font-black text-foreground leading-[1.4] mb-8">
-            為什麼現在出書，<span className="text-accent-gold">比任何時候都重要？</span>
-          </h2>
+          <img
+            src={whyPublishNowImg}
+            alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
+            className="w-full rounded-lg mb-8"
+          />
           <div className="space-y-6 font-body text-muted-foreground text-base leading-relaxed">
-            <p>
-              AI 來了。許多人正在被釋出市場、掙扎轉型、嘗試建立個人品牌。越來越多人搶著卡位，越晚出發越難佔到位置。
-            </p>
-            <p className="text-foreground font-semibold text-lg">
-              你可能會想：我經營社群就好了，為什麼非得出書？但我們要盤點，自己的社群力夠強嗎？能維持多久呢？
-            </p>
-            <p>
-              演算法一改，你的文還能出圈嗎？就算用 AI 搬運了時事文或名人觀點衝流量，這些流量能連結到你的專業、轉換成收入嗎？大多數時候，答案是不行。
-            </p>
             {/* Left-right: text + bookstore photo */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="rounded-lg overflow-hidden">
