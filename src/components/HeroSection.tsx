@@ -36,13 +36,13 @@ const HeroSection = () => {
 
         {/* Info tags */}
         <div className="flex flex-wrap gap-3 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          <span className="inline-flex items-center border border-border font-body text-foreground text-base px-5 py-3 rounded">
+          <span className="inline-flex items-center bg-white border border-border font-body text-foreground text-base px-5 py-3 rounded">
             4/11（五）台中
           </span>
-          <span className="inline-flex items-center border border-border font-body text-foreground text-base px-5 py-3 rounded">
+          <span className="inline-flex items-center bg-white border border-border font-body text-foreground text-base px-5 py-3 rounded">
             4/12（六）高雄
           </span>
-          <span className="inline-flex items-center border border-border font-body text-foreground text-base px-5 py-3 rounded">
+          <span className="inline-flex items-center bg-white border border-border font-body text-foreground text-base px-5 py-3 rounded">
             陪跑限額 5 人
           </span>
         </div>
@@ -50,7 +50,7 @@ const HeroSection = () => {
         <div className="mt-3 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
           <a
             href="#pricing"
-            className="inline-flex items-center border border-border font-body text-foreground text-base px-5 py-3 rounded hover:border-accent-gold hover:text-accent-gold transition-colors"
+            className="inline-flex items-center bg-white border border-border font-body text-foreground text-base px-5 py-3 rounded hover:border-accent-gold hover:text-accent-gold transition-colors"
           >
             早鳥 3/28 截止
           </a>
