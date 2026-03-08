@@ -83,13 +83,16 @@ const ProblemSection = () => {
           </div>
           <div className="space-y-4 font-body text-muted-foreground text-base leading-relaxed">
             <p>
-              台灣出版市場十五年來產值從 367 億腰斬到約 200 億。一般大眾書年銷量中位數只有 500 到 800 本，損益平衡點卻推升到 2,200 本。出版社每簽一本新書，有九成機率虧損。
+              一般大眾書年銷量中位數只有 500 到 800 本，損益平衡點卻推升到 2,200 本
             </p>
             <p>
-              首刷量從三千本縮到一千兩百本，翻譯書持續壓縮本土作者的空間。793 家出版社裡，近九成集中在桃園以北。中南部的專業工作者想出書，先天就少了一層被看見的機會。
+              首刷量從三千本縮到一千兩百本，翻譯書持續壓縮本土作者的空間
             </p>
             <p className="text-foreground font-semibold text-lg">
-              所以出版社現在看的，除了你的稿子品質，更關鍵的是：<span className="text-accent-green">「你有沒有能力幫這本書賣」</span>
+              所以出版社現在看的，除了你的稿子品質，更關鍵的是這件事：<span className="text-accent-green">「你有沒有能力幫賣這本書？」</span>
+            </p>
+            <p>
+              你需要一份讓出版社一看就想約你聊的企劃書。裡面要有市場定位、讀者輪廓、你的推廣能力證明
             </p>
           </div>
         </div>
