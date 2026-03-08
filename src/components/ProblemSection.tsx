@@ -7,6 +7,7 @@ import bookstoreImg from "@/assets/bookstore-display.jpg";
 
 const ProblemSection = () => {
   return (
+    <>
     <section className="bg-background py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-4xl">
         {/* Problem intro */}
@@ -31,38 +32,46 @@ const ProblemSection = () => {
             />
           </div>
         </div>
+      </div>
+    </section>
 
-        {/* Why publish now */}
-        <div className="mb-28 bg-white rounded-lg p-8 md:p-12">
-          <img
-            src={whyPublishNowImg}
-            alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
-            className="w-full max-w-2xl mx-auto rounded-lg mb-8"
-          />
-          <div className="space-y-6 font-body text-muted-foreground text-lg leading-relaxed">
-            <div className="mt-20">
-              <h3 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-3 text-center">傳統出版的書，依舊是一張社會證明</h3>
-              <p className="text-muted-foreground/80 text-xl font-medium mb-8 text-center">證明這個人有料，證明這個議題有市場</p>
-              <div className="rounded-lg overflow-hidden mb-6 max-w-2xl mx-auto">
-                <img src={bookstoreImg} alt="書店商業推薦書展示" className="w-full rounded-lg" />
-              </div>
-              <div className="space-y-6">
-                <p>
-                  網路上寫文的人成千上萬，但能出書的有幾個？這個門檻，先天就能幫你在市場上站穩腳跟。
-                </p>
-                <p>
-                  曾經有個學員問我：「為什麼要出書？出書能幹嘛？」我說：<span className="text-accent-green font-semibold">「我出書，能讓你不會懷疑我的專業，還來上我的課。」</span>
-                </p>
-                <p>
-                  出書能協助你轉型、卡位、樹立專業形象。而在這個 AI 內容氾濫的時代，一本經過出版社篩選、編輯把關的實體書，反而成了最稀缺的信任貨幣。
-                </p>
-              </div>
+    {/* Why publish now — full-width white */}
+    <section className="bg-white py-20 md:py-28">
+      <div className="container mx-auto px-6 max-w-4xl">
+        <img
+          src={whyPublishNowImg}
+          alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
+          className="w-full max-w-2xl mx-auto rounded-lg mb-8"
+        />
+      </div>
+    </section>
+
+    {/* 傳統出版的書 */}
+    <section className="bg-background py-20 md:py-28">
+      <div className="container mx-auto px-6 max-w-4xl">
+        <div className="space-y-6 font-body text-muted-foreground text-lg leading-relaxed">
+          <div>
+            <h3 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-3 text-center">傳統出版的書，依舊是一張社會證明</h3>
+            <p className="text-muted-foreground/80 text-xl font-medium mb-8 text-center">證明這個人有料，證明這個議題有市場</p>
+            <div className="rounded-lg overflow-hidden mb-6 max-w-2xl mx-auto">
+              <img src={bookstoreImg} alt="書店商業推薦書展示" className="w-full rounded-lg" />
             </div>
-
-            <p className="text-foreground font-semibold text-xl mt-6">
-              但更現實的是：就算你終於決定要寫了，出版社也未必買單。因為出版社也有現實考量。
-            </p>
+            <div className="space-y-6">
+              <p>
+                網路上寫文的人成千上萬，但能出書的有幾個？這個門檻，先天就能幫你在市場上站穩腳跟。
+              </p>
+              <p>
+                曾經有個學員問我：「為什麼要出書？出書能幹嘛？」我說：<span className="text-accent-green font-semibold">「我出書，能讓你不會懷疑我的專業，還來上我的課。」</span>
+              </p>
+              <p>
+                出書能協助你轉型、卡位、樹立專業形象。而在這個 AI 內容氾濫的時代，一本經過出版社篩選、編輯把關的實體書，反而成了最稀缺的信任貨幣。
+              </p>
+            </div>
           </div>
+
+          <p className="text-foreground font-semibold text-xl mt-6">
+            但更現實的是：就算你終於決定要寫了，出版社也未必買單。因為出版社也有現實考量。
+          </p>
         </div>
 
         {/* Market reality */}
@@ -123,6 +132,7 @@ const ProblemSection = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
