@@ -44,7 +44,7 @@ const ProblemSection = () => {
             </p>
             <p>
               演算法一改，你的文還能出圈嗎？就算用 AI 搬運了時事文或名人觀點衝流量，這些流量能轉換成收入嗎？大多數時候，答案是不行。
-
+            </p>
             {/* Left-right: text + bookstore photo */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="space-y-6">
