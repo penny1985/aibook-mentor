@@ -15,7 +15,7 @@ const ProblemSection = () => {
           <div>
             <div className="flex items-center gap-4 mb-6">
               <h2 className="font-display text-4xl md:text-5xl font-black text-foreground leading-[1.4] flex-1">
-                你心裡那本書，<br />
+                你心裡那本書<br className="hidden md:inline" />
                 <span className="text-accent-gold">卡了多久了？</span>
               </h2>
               <img
