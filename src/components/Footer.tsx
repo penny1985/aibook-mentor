@@ -22,6 +22,11 @@ const Footer = () => {
             <h4 className="font-body text-foreground text-base font-bold mb-3">聯繫我們</h4>
             <ul className="space-y-2 font-body text-muted-foreground text-sm">
               <li>
+                <a href="https://read-draw.com/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-gold transition-colors">
+                  官網 — 閱讀塗鴉實驗室
+                </a>
+              </li>
+              <li>
                 <a href="https://www.facebook.com/peiru1985" target="_blank" rel="noopener noreferrer" className="hover:text-accent-gold transition-colors">
                   Facebook — 陳沛孺
                 </a>
@@ -35,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-border pt-6 font-body text-sm text-muted-foreground flex flex-wrap justify-between gap-4">
-          <span>© 2025 閱讀塗鴉實驗室. All rights reserved.</span>
+          <span>© 2026 閱讀塗鴉實驗室. All rights reserved.</span>
           <span>主辦：閱讀塗鴉實驗室｜講師：陳沛孺 Penny</span>
         </div>
       </div>

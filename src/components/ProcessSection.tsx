@@ -71,9 +71,9 @@ const ProcessSection = () => {
         </div>
 
         {/* Editor highlight */}
-        <div className="border-2 border-accent-gold rounded-lg p-8 md:p-12">
+        <div className="bg-background border-2 border-accent-gold rounded-lg p-8 md:p-12">
           <h3 className="font-display text-3xl font-bold mb-6 leading-[1.4]">
-            陪跑班核心權益：<span className="text-accent-gold">總編會客室</span>
+            陪跑班<span className="text-accent-gold">專屬好康</span>
           </h3>
           <div className="grid md:grid-cols-[200px_1fr] gap-8 items-start mb-6">
             <div>
@@ -81,17 +81,28 @@ const ProcessSection = () => {
             </div>
             <div>
               <p className="font-body text-muted-foreground text-base leading-relaxed mb-4">
-                <strong className="text-foreground">賈俊國（阿丹總編）</strong>：城邦出版集團商周出版總經理、布克文化總編輯。出版經歷超過 30 年，經手超過 500 本暢銷書，累積銷售超過 1,000 萬冊。
+                <strong className="text-foreground">賈俊國（阿丹總編）</strong>：布克文化總編輯。出版經歷超過 30 年，經手超過 500 本暢銷書，累積銷售超過 1,000 萬冊。
+              </p>
+              <p className="font-body text-muted-foreground text-base leading-relaxed mb-4">
+                他是暢銷作家 PETER SU 第 3、4 本書的總編輯，也是《黃阿瑪後宮生活》系列的幕後推手。角落小夥伴、拉拉熊、水豚君等知名圖文出版品的企畫選書人。
               </p>
               <p className="font-body text-muted-foreground text-base leading-relaxed">
-                他是暢銷作家 PETER SU 第 3、4 本書的總編輯，也是《黃阿瑪後宮生活》系列的幕後推手。角落小夥伴、拉拉熊、水豚君等知名圖文出版品的企畫選書人。
+                著有《鬧笑話》《白癡定律》等書，目前持續在臉書「如何出版一本書」粉專分享實用的出書方法。
               </p>
             </div>
           </div>
-          <div className="bg-background rounded-lg p-6">
-            <p className="font-body text-foreground text-base font-medium leading-relaxed">
-              這位總編會親自回饋你的企劃書。針對你的企劃逐條給意見，一對一文字回饋。你拿到的是業界最資深的眼睛幫你看過一遍。
-              <span className="text-accent-gold font-bold">這份回饋的含金量，外面花錢也買不到。</span>
+          <div className="bg-secondary rounded-lg p-6">
+            <p className="font-body text-foreground text-base font-medium leading-relaxed mb-3">
+              陪跑班的總編參與包含兩件事：
+            </p>
+            <p className="font-body text-foreground text-base leading-relaxed mb-2">
+              <span className="text-accent-gold font-bold">①</span> 企劃書審閱回饋：總編會審閱你的企劃書並提供專業回饋，幫你看到自己看不到的盲點
+            </p>
+            <p className="font-body text-foreground text-base leading-relaxed mb-4">
+              <span className="text-accent-gold font-bold">②</span> 總編會客室：線上統一 QA 時間，你可以直接向總編提問關於出版的各種問題
+            </p>
+            <p className="font-body text-foreground text-base leading-relaxed">
+              你拿到的是業界最資深的眼睛幫你看過一遍。<span className="text-accent-gold font-bold">這份參與的含金量，外面花錢也買不到。</span>
             </p>
           </div>
           <p className="font-body text-accent-green text-base font-bold mt-6">陪跑限額 5 人，額滿不加開</p>
