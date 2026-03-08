@@ -13,10 +13,17 @@ const ProblemSection = () => {
         {/* Problem intro */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="font-display text-4xl md:text-5xl font-black text-foreground leading-[1.4] mb-6">
-              你心裡那本書，<br />
-              <span className="text-accent-gold">卡了多久了？</span>
-            </h2>
+            <div className="flex items-center gap-4 mb-6">
+              <h2 className="font-display text-4xl md:text-5xl font-black text-foreground leading-[1.4] flex-1">
+                你心裡那本書，<br />
+                <span className="text-accent-gold">卡了多久了？</span>
+              </h2>
+              <img
+                src={heroIllustration}
+                alt="拿著筆思考的女孩插畫"
+                className="w-16 h-16 rounded-full object-cover shrink-0 md:hidden"
+              />
+            </div>
             <p className="font-body text-muted-foreground text-lg leading-relaxed mb-4">
               你心裡一直有一本書想寫。可能是十年教學經驗的總結，可能是一套獨家方法論，可能是一段值得被記錄的專業歷程。
             </p>
@@ -24,7 +31,7 @@ const ProblemSection = () => {
               但你遲遲沒有動筆——企劃書怎麼寫？投給哪家出版社？怎麼讓編輯願意打開你的信？光是這三個問題，就足以讓大部分人停在原地。
             </p>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="hidden md:flex items-center justify-center">
             <img
               src={heroIllustration}
               alt="拿著筆思考的女孩插畫"
