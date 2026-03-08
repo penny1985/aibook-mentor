@@ -18,8 +18,12 @@ const ProblemSection = () => {
               但你遲遲沒有動筆——企劃書怎麼寫？投給哪家出版社？怎麼讓編輯願意打開你的信？光是這三個問題，就足以讓大部分人停在原地。
             </p>
           </div>
-          <div className="relative">
-            <img src={notebookImg} alt="空白筆記本" className="w-full rounded-lg" />
+          <div className="relative overflow-hidden rounded-lg">
+            <img
+              src={notebookImg}
+              alt="空白筆記本"
+              className="w-full rounded-lg scale-105 origin-top-left"
+            />
           </div>
         </div>
 

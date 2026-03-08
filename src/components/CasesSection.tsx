@@ -1,10 +1,10 @@
 import pennyImg from "@/assets/penny-chen.jpg";
 
 const cases = [
-  { name: "陳顯立", title: "好廣告數據創辦人", result: "用一本書打進台灣前 500 大企業，公司營收一年暴增一億。書是最能建立信任的「高級名片」。" },
-  { name: "孫治華", title: "策略思維商學院院長", result: "一本原本只是補充教材的書，轉化成行銷利器，帶來 80 位學員、400 萬營收。" },
-  { name: "郭繐綺", title: "作文攻頂教練", result: "一本書讓教學版圖從高雄拓展到全台，還因書結緣獲得親子天下「教育創新 100」金獎。" },
-  { name: "林小印", title: "《財富自由的整理煉金術》作者", result: "在寫作階段就為書埋下商業伏筆：同步重整網站、設計十多門課程、在章節裡嵌入 QR code。出版後工作型態從到府整理轉為在家遠端。" },
+  { name: "陳顯立", title: "好廣告數據創辦人，《流量新紅利時代》《信任效應》（即將出版）作者", result: "用一本書打進台灣前 500 大企業，公司營收一年暴增一億。他說書是最能建立信任的「高級名片」。" },
+  { name: "孫治華", title: "策略思維商學院院長，《百萬職業講師的商業策略》作者", result: "一本原本只是補充教材的書，轉化成行銷利器，帶來 80 位學員、400 萬營收。" },
+  { name: "郭繐綺", title: "作文攻頂教練，《我人生的好運都因寫作而發生》作者", result: "一本書讓教學版圖從高雄拓展到全台，還因書結緣獲得親子天下「教育創新 100」金獎。" },
+  { name: "林小印", title: "《財富自由的整理煉金術》《讓錢喜歡你的財富整理術》作者", result: "在寫作階段就為書埋下商業伏筆：同步重整網站、設計十多門課程、在章節裡嵌入 QR code。出版後工作型態從到府整理轉為在家遠端，書成了品牌生態系的核心。" },
 ];
 
 const testimonials = [
@@ -30,7 +30,7 @@ const CasesSection = () => {
         <div className="grid md:grid-cols-2 gap-6 mb-16">
           {cases.map((c, i) => (
             <div key={i} className="border border-border rounded-lg p-6 hover:border-accent transition-colors">
-              <div className="flex items-baseline gap-2 mb-3">
+              <div className="mb-3">
                 <h3 className="font-display text-xl font-bold">{c.name}</h3>
                 <span className="font-body text-muted-foreground text-sm">{c.title}</span>
               </div>
