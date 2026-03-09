@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import heroIllustration from "@/assets/hero-illustration.png";
-import whyPublishNowImg from "@/assets/why-publish-now.png";
+import whyPublishNowImg from "@/assets/why-publish-now-v2.png";
 import sixWeekOutcomeImg from "@/assets/six-week-outcome.png";
 import publisherLossImg from "@/assets/publisher-loss-rate-user.png";
 import workshopPhoto from "@/assets/workshop-photo.jpg";
@@ -54,6 +54,15 @@ const ProblemSection = () => {
           alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
           className="w-full max-w-2xl mx-auto rounded-lg"
         />
+        {/* Taglines */}
+        <div className="mt-12 text-center space-y-4">
+          <p className="font-display text-2xl md:text-3xl font-bold text-muted-foreground">
+            流量，可以讓人認識你
+          </p>
+          <p className="font-display text-2xl md:text-3xl font-bold text-accent-green">
+            出書，則是讓人信任你
+          </p>
+        </div>
       </div>
     </section>
 
