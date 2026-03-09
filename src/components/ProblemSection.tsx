@@ -23,10 +23,10 @@ const ProblemSection = () => {
                 <span className="text-accent-gold">卡了多久了？</span>
               </h2>
               <img
-                src={heroIllustration}
-                alt="拿著筆思考的女孩插畫"
-                className="w-24 h-24 rounded-full object-cover shrink-0 md:hidden"
-              />
+                  src={heroIllustration}
+                  alt="拿著筆思考的女孩插畫"
+                  className="w-24 h-24 rounded-full object-cover shrink-0 md:hidden" />
+                
             </div>
             <p className="font-body text-muted-foreground text-lg leading-relaxed mb-4">
               你心裡一直有一本書想寫。可能是十年教學經驗的總結，可能是一套獨家方法論，可能是一段值得被記錄的專業歷程。
@@ -37,10 +37,10 @@ const ProblemSection = () => {
           </div>
           <div className="hidden md:flex items-center justify-center">
             <img
-              src={heroIllustration}
-              alt="拿著筆思考的女孩插畫"
-              className="w-56 md:w-72 rounded-lg"
-            />
+                src={heroIllustration}
+                alt="拿著筆思考的女孩插畫"
+                className="w-56 md:w-72 rounded-lg" />
+              
           </div>
         </div>
       </div>
@@ -50,14 +50,14 @@ const ProblemSection = () => {
     <section className="bg-white py-20 md:py-28">
       <div className="container mx-auto px-6 max-w-4xl">
         <img
-          src={whyPublishNowImg}
-          alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
-          className="w-full max-w-2xl mx-auto rounded-lg"
-        />
+            src={whyPublishNowImg}
+            alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
+            className="w-full max-w-2xl mx-auto rounded-lg" />
+          
         {/* Taglines */}
         <div className="mt-12 text-center space-y-4">
           <p className="font-display text-3xl md:text-4xl font-black text-foreground tracking-wider">
-            流量，可以讓人認識你
+            流量，可以讓人知道你
           </p>
           <p className="font-display text-3xl md:text-4xl font-black text-accent-green tracking-wider">
             出書，則是讓人信任你
@@ -100,10 +100,10 @@ const ProblemSection = () => {
           {/* Publisher loss rate infographic */}
           <div className="my-8 rounded-lg overflow-hidden">
             <img
-              src={publisherLossImg}
-              alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
-              className="w-full"
-            />
+                src={publisherLossImg}
+                alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
+                className="w-full" />
+              
           </div>
           <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">
             <p>
@@ -144,21 +144,21 @@ const ProblemSection = () => {
           {/* Deliverables */}
           <div className="border-t border-border pt-8">
             <img
-              src={sixWeekOutcomeImg}
-              alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物"
-              className="w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
-              onClick={() => setZoomOpen(true)}
-            />
+                src={sixWeekOutcomeImg}
+                alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物"
+                className="w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+                onClick={() => setZoomOpen(true)} />
+              
             <p className="text-center text-muted-foreground/60 text-sm mt-2">點擊圖片放大檢視</p>
           </div>
 
           <Dialog open={zoomOpen} onOpenChange={setZoomOpen}>
             <DialogContent className="max-w-[95vw] md:max-w-4xl p-2">
               <img
-                src={sixWeekOutcomeImg}
-                alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物"
-                className="w-full rounded-lg"
-              />
+                  src={sixWeekOutcomeImg}
+                  alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物"
+                  className="w-full rounded-lg" />
+                
             </DialogContent>
           </Dialog>
 
@@ -168,8 +168,8 @@ const ProblemSection = () => {
         </div>
       </div>
     </section>
-    </>
-  );
+    </>);
+
 };
 
 export default ProblemSection;
