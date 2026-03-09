@@ -56,10 +56,10 @@ const ProblemSection = () => {
         />
         {/* Taglines */}
         <div className="mt-12 text-center space-y-4">
-          <p className="font-display text-2xl md:text-3xl font-bold text-muted-foreground">
+          <p className="font-display text-3xl md:text-4xl font-black text-foreground tracking-wider">
             流量，可以讓人認識你
           </p>
-          <p className="font-display text-2xl md:text-3xl font-bold text-accent-green">
+          <p className="font-display text-3xl md:text-4xl font-black text-accent-green tracking-wider">
             出書，則是讓人信任你
           </p>
         </div>
