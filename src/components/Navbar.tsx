@@ -67,7 +67,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#cta"
+            href="#pricing"
             onClick={() => setOpen(false)}
             className="block mt-4 bg-accent-gold text-foreground font-bold text-base px-5 py-3 rounded text-center hover:opacity-90 transition-opacity"
           >
