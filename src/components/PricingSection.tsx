@@ -31,7 +31,7 @@ const PricingSection = () => {
 
               <div className="space-y-3">
                 <a
-                  href="https://cart.cashier.ecpay.com.tw/qp/z5Z9"
+                  href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/UCrIzr4KsGMCCOgjxGyb"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity"
@@ -39,7 +39,7 @@ const PricingSection = () => {
                   4/11 台中場報名
                 </a>
                 <a
-                  href="https://cart.cashier.ecpay.com.tw/qp/z6a5"
+                  href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/kBFr2TVTgenb0tpist3R"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center rounded-md border-2 border-accent-green text-accent-green font-body font-bold py-3 px-4 hover:bg-accent-green hover:text-white transition-colors"
@@ -80,7 +80,7 @@ const PricingSection = () => {
 
               <div className="space-y-3 mt-auto">
                 <a
-                  href="https://cart.cashier.ecpay.com.tw/qp/z6cE"
+                  href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/rpfUcUaRio3WJehmZ5IN"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity"
@@ -88,7 +88,7 @@ const PricingSection = () => {
                   4/11 台中場報名
                 </a>
                 <a
-                  href="https://cart.cashier.ecpay.com.tw/qp/z6dF"
+                  href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/Jm1lunNGtmc7t7yltG1O"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center rounded-md border-2 border-accent-green text-accent-green font-body font-bold py-3 px-4 hover:bg-accent-green hover:text-white transition-colors"
