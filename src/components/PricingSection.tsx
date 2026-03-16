@@ -31,7 +31,7 @@ const PricingSection = () => {
 
               <div className="space-y-3">
                 <a
-                  href="https://cart.cashier.ecpay.com.tw/qp/z5Z9"
+                  href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/UCrIzr4KsGMCCOgjxGyb"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity"
