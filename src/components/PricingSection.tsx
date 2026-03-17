@@ -58,6 +58,7 @@ const PricingSection = () => {
                 <p className="font-body text-foreground text-sm font-medium mb-3">完整內容</p>
                 <ul className="space-y-3 font-body text-muted-foreground text-base flex-1">
                   <li className="flex items-start gap-2"><span className="text-accent-green">→</span> 一日工作坊（選題定位到企劃書架構）</li>
+                  <li className="flex items-start gap-2"><span className="text-accent-green">→</span> 出版實戰經驗分享</li>
                   <li className="flex items-start gap-2"><span className="text-accent-green">→</span> 六週線上陪跑每週精修</li>
                   <li className="flex items-start gap-2"><span className="text-accent-green">→</span> 總編企劃書審閱回饋</li>
                   <li className="flex items-start gap-2"><span className="text-accent-green">→</span> 總編會客室（線上 QA）</li>
