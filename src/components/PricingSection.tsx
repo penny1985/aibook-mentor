@@ -24,6 +24,7 @@ const PricingSection = () => {
                   <li className="flex items-start gap-2"><span className="text-accent-green">→</span> 一天走完選題到企劃書的完整流程</li>
                   <li className="flex items-start gap-2"><span className="text-accent-green">→</span> 選題定位、目錄架構實作</li>
                   <li className="flex items-start gap-2"><span className="text-accent-green">→</span> AI 協作寫作、投稿策略教學</li>
+                  <li className="flex items-start gap-2"><span className="text-accent-green">→</span> 出版實戰經驗分享</li>
                 </ul>
               </div>
 
