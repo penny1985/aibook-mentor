@@ -4,7 +4,6 @@ import ProblemSection from "@/components/ProblemSection";
 import ProcessSection from "@/components/ProcessSection";
 import PricingSection from "@/components/PricingSection";
 import CasesSection from "@/components/CasesSection";
-import CasesSection from "@/components/CasesSection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
