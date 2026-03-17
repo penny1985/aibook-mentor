@@ -125,7 +125,7 @@ const ProblemSection = () => {
         {/* Solution */}
         <div className="bg-secondary rounded-lg p-8 md:p-12">
           <h3 className="font-display text-3xl md:text-4xl font-bold mb-8 text-center">
-            一天打底，<span className="text-accent-gold">六週修到符合業界標準</span>
+            一天打底，<span className="text-accent-gold">六週走完別人磨Ｎ年的路</span>
           </h3>
           <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
             <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">

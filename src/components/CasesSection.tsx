@@ -75,8 +75,15 @@ const CasesSection = () => {
           </p>
         </blockquote>
 
-        {/* Divider */}
-        <div className="w-24 h-1 bg-accent mx-auto mb-20" />
+        {/* Value reframe */}
+        <div className="bg-accent-green rounded-lg py-16 px-8 md:px-12 mb-20 text-center">
+          <h3 className="font-display text-3xl md:text-4xl font-black text-white leading-[1.5] mb-6">
+            這門課教你的，不只是寫一本書
+          </h3>
+          <p className="font-body text-lg md:text-xl leading-relaxed max-w-2xl mx-auto" style={{ color: 'hsl(35, 40%, 90%)' }}>
+            市面上的出書課教你「怎麼寫」。這門課教你的是「怎麼用一本書重新定義你的商業模式」。從選題定位、AI 協作寫書、企劃書撰寫、到投稿策略，你帶走的是一套完整的出書商業系統。
+          </p>
+        </div>
 
         {/* Penny intro */}
         <div className="max-w-4xl mx-auto mb-20 bg-white border border-border rounded-lg p-8 md:p-10 shadow-sm">

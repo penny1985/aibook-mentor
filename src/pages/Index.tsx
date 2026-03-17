@@ -17,7 +17,6 @@ const Index = () => {
         <HeroSection />
         <div id="problem"><ProblemSection /></div>
         <div id="process"><ProcessSection /></div>
-        <ValueReframeSection />
         <div id="cases"><CasesSection /></div>
         <div id="pricing"><PricingSection /></div>
         <div id="faq"><FAQSection /></div>
