@@ -107,7 +107,7 @@ const ProcessSection = () => {
               你拿到的是業界最資深的眼睛幫你看過一遍。<span className="text-accent-gold font-bold">這份參與的含金量，外面花錢也買不到。</span>
             </p>
           </div>
-          <p className="font-body text-accent-green text-lg font-bold mt-6">陪跑限額 5 人，額滿不加開</p>
+          <p className="font-body text-accent-green text-lg font-bold mt-6">陪跑限額 10 人，額滿不加開</p>
           <p className="font-body text-muted-foreground text-sm mt-4">※ 講師將依據 AI 最新發展、保有調整課程內容之權利</p>
           <a href="https://facebook.com/daniel.editorinchief" target="_blank" rel="noopener noreferrer"
             className="inline-block mt-4 font-body text-muted-foreground text-lg underline hover:text-accent-gold transition-colors">

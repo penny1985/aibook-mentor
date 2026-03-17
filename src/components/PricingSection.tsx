@@ -80,47 +80,11 @@ const PricingSection = () => {
           </div>
         </div>
 
-        {/* Session info & maps — light subheading, no big title */}
+        {/* Session info */}
         <div className="max-w-4xl mx-auto mb-12">
-          <p className="font-display text-2xl font-bold text-foreground mb-6 text-center">上課地點</p>
-          <div className="grid sm:grid-cols-2 gap-8">
-            {/* Taichung */}
-            <div className="bg-white rounded-lg border border-border p-6 shadow-sm">
-              <p className="font-display text-lg font-bold text-foreground mb-1">📍 4/11（五）台中場</p>
-              <p className="font-body text-muted-foreground text-sm mb-1">Monospace（台灣大道二段 2 號 16F-2）<span className="text-accent-gold text-xs">（暫定）</span></p>
-              <p className="font-body text-muted-foreground text-sm mb-4">10:00 - 17:00（含午休）</p>
-              <div className="rounded-lg overflow-hidden border border-border aspect-video">
-                <iframe
-                  src="https://maps.google.com/maps?q=Monospace+%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B52%E8%99%9F&t=&z=16&ie=UTF8&iwloc=&output=embed"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="台中場地 Monospace 地圖"
-                />
-              </div>
-            </div>
-
-            {/* Kaohsiung */}
-            <div className="bg-white rounded-lg border border-border p-6 shadow-sm">
-              <p className="font-display text-lg font-bold text-foreground mb-1">📍 4/12（六）高雄場</p>
-              <p className="font-body text-muted-foreground text-sm mb-1">WEE 威易聯合辦公室（中正三路 55 號 27F）<span className="text-accent-gold text-xs">（暫定）</span></p>
-              <p className="font-body text-muted-foreground text-sm mb-4">10:00 - 17:00（含午休）</p>
-              <div className="rounded-lg overflow-hidden border border-border aspect-video">
-                <iframe
-                  src="https://maps.google.com/maps?q=%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%B0%E8%88%88%E5%8D%80%E4%B8%AD%E6%AD%A3%E4%B8%89%E8%B7%AF55%E8%99%9F&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="高雄場地 WEE 威易聯合辦公室地圖"
-                />
-              </div>
-            </div>
+          <div className="bg-white rounded-lg border border-border p-6 shadow-sm text-center">
+            <p className="font-display text-lg font-bold text-foreground mb-1">📅 4/11（五）10:00 - 17:00（含午休）</p>
+            <p className="font-body text-muted-foreground text-base">線上進行（Zoom / Google Meet，報名後通知）</p>
           </div>
         </div>
 

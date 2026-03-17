@@ -37,13 +37,10 @@ const HeroSection = () => {
         {/* Info tags */}
         <div className="flex flex-wrap gap-3 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           <span className="inline-flex items-center bg-white/50 backdrop-blur-sm border border-border font-body text-foreground text-base px-5 py-3 rounded">
-            4/11（五）台中
+            4/11（五）線上直播
           </span>
           <span className="inline-flex items-center bg-white/50 backdrop-blur-sm border border-border font-body text-foreground text-base px-5 py-3 rounded">
-            4/12（六）高雄
-          </span>
-          <span className="inline-flex items-center bg-white/50 backdrop-blur-sm border border-border font-body text-foreground text-base px-5 py-3 rounded">
-            陪跑限額 5 人
+            陪跑限額 10 人
           </span>
         </div>
 
