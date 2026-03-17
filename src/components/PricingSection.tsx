@@ -65,27 +65,17 @@ const PricingSection = () => {
               </div>
 
               <p className="font-body text-accent-green text-sm font-bold mb-6 flex items-center gap-2">
-                <span className="text-accent-gold">★</span> 陪跑限額 5 人，額滿不加開
+                <span className="text-accent-gold">★</span> 陪跑限額 10 人，額滿不加開
               </p>
 
-              <div className="space-y-3 mt-auto">
-                <a
-                  href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/rpfUcUaRio3WJehmZ5IN"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity"
-                >
-                  4/11 台中場報名
-                </a>
-                <a
-                  href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/Jm1lunNGtmc7t7yltG1O"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full text-center rounded-md border-2 border-accent-green text-accent-green font-body font-bold py-3 px-4 hover:bg-accent-green hover:text-white transition-colors"
-                >
-                  4/12 高雄場報名
-                </a>
-              </div>
+              <a
+                href="https://api.payuni.com.tw/api/uop/receive_info/1/1/FUNC94518350/xCKxadxq7rF8e8XOqDNS"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity mt-auto"
+              >
+                立即報名
+              </a>
             </div>
           </div>
         </div>
