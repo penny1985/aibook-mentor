@@ -133,7 +133,7 @@ const ProblemSection = () => {
               <p><strong className="text-accent-gold">第二步</strong> — 六週線上陪跑，Penny 帶你每週精修，從初版改到符合出版社標準</p>
               <p><strong className="text-accent-gold">第三步</strong> — 總編會客室，30 年出版資歷的賈俊國總編親自回饋你的企劃書</p>
               <p className="mt-4">
-                你不需要先寫好稿子才來。你只需要帶著「心裡那本書的模糊輪廓」走進教室。
+                你不需要先寫好稿子才來。你只需要帶著「心裡那本書的模糊輪廓」打開電腦。
               </p>
             </div>
             <div className="rounded-lg overflow-hidden">
