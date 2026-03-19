@@ -85,7 +85,7 @@ const PricingSection = () => {
         {/* Session info */}
         <div className="max-w-4xl mx-auto mb-12">
           <div className="bg-white rounded-lg border border-border p-6 shadow-sm text-center">
-            <p className="font-display text-lg font-bold text-foreground mb-1">📅 4/11（五）10:00 - 17:00（含午休）</p>
+            <p className="font-display text-lg font-bold text-foreground mb-1">📅 4/12（日）10:00 - 17:00（含午休）</p>
             <p className="font-body text-muted-foreground text-base">線上進行（Zoom / Google Meet，報名後通知）</p>
           </div>
         </div>
