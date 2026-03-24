@@ -77,7 +77,7 @@ const ProblemSection = () => {
             <h3 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-3 text-center">傳統出版的書，依舊是一張社會證明</h3>
             <p className="text-muted-foreground/80 text-xl font-medium mb-8 text-center">證明這個人有料，證明這個議題有市場</p>
             <div className="rounded-lg overflow-hidden mb-6 max-w-2xl mx-auto">
-              <img src={bookstoreImg} alt="書店暢銷書展示區，傳統出版書籍作為專業社會證明" className="w-full rounded-lg" />
+              <img src={bookstoreImg} alt="書店暢銷書展示區，傳統出版書籍作為專業社會證明" className="w-full rounded-lg" loading="lazy" />
             </div>
             <div className="space-y-6">
               <p>
