@@ -25,7 +25,8 @@ const ProblemSection = () => {
               <img
                   src={heroIllustration}
                   alt="拿著筆思考的女孩插畫"
-                  className="w-24 h-24 rounded-full object-cover shrink-0 md:hidden" />
+                  className="w-24 h-24 rounded-full object-cover shrink-0 md:hidden"
+                  loading="lazy" />
                 
             </div>
             <p className="font-body text-muted-foreground text-lg leading-relaxed mb-4">
