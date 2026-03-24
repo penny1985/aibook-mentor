@@ -151,6 +151,7 @@ const ProblemSection = () => {
                 src={sixWeekOutcomeImg}
                 alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物"
                 className="w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+                loading="lazy"
                 onClick={() => setZoomOpen(true)} />
               
             <p className="text-center text-muted-foreground/60 text-sm mt-2">點擊圖片放大檢視</p>
