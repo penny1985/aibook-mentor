@@ -40,7 +40,8 @@ const ProblemSection = () => {
             <img
                 src={heroIllustration}
                 alt="拿著筆思考的女孩插畫"
-                className="w-56 md:w-72 rounded-lg" />
+                className="w-56 md:w-72 rounded-lg"
+                loading="lazy" />
               
           </div>
         </div>
