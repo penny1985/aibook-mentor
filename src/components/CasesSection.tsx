@@ -92,7 +92,7 @@ const CasesSection = () => {
           </h3>
           <div className="grid md:grid-cols-[280px_1fr] gap-8 items-start">
             <div className="relative">
-              <img src={pennyImg} alt="AI 出書實戰班講師陳沛孺 Penny，《用AI打造素人影響力》作者" className="w-full rounded-lg shadow-lg" />
+              <img src={pennyImg} alt="AI 出書實戰班講師陳沛孺 Penny，《用AI打造素人影響力》作者" className="w-full rounded-lg shadow-lg" loading="lazy" />
               <a
                 href="https://www.books.com.tw/products/0011021616"
                 target="_blank"
