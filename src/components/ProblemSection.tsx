@@ -4,8 +4,8 @@ import heroIllustration from "@/assets/hero-illustration.webp";
 import whyPublishNowImg from "@/assets/why-publish-now-v2.webp";
 import sixWeekOutcomeImg from "@/assets/six-week-outcome.webp";
 import publisherLossImg from "@/assets/publisher-loss-rate-user.webp";
-import workshopPhoto from "@/assets/workshop-photo.jpg";
-import bookstoreImg from "@/assets/bookstore-display.jpg";
+import workshopPhoto from "@/assets/workshop-photo.webp";
+import bookstoreImg from "@/assets/bookstore-display.webp";
 
 const ProblemSection = () => {
   const [zoomOpen, setZoomOpen] = useState(false);
