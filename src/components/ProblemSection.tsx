@@ -141,7 +141,7 @@ const ProblemSection = () => {
               </p>
             </div>
             <div className="rounded-lg overflow-hidden">
-              <img src={workshopPhoto} alt="陳沛孺 Penny 在 AI 出書實戰班工作坊帶領學員實作企劃書" className="w-full rounded-lg" />
+              <img src={workshopPhoto} alt="陳沛孺 Penny 在 AI 出書實戰班工作坊帶領學員實作企劃書" className="w-full rounded-lg" loading="lazy" />
             </div>
           </div>
 
