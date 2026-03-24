@@ -92,7 +92,7 @@ const CasesSection = () => {
           </h3>
           <div className="grid md:grid-cols-[280px_1fr] gap-8 items-start">
             <div className="relative">
-              <img src={pennyImg} alt="AI 出書實戰班講師陳沛孺 Penny，《用AI打造素人影響力》作者" className="w-full rounded-lg shadow-lg" />
+              <img src={pennyImg} alt="AI 出書實戰班講師陳沛孺 Penny，《用AI打造素人影響力》作者" className="w-full rounded-lg shadow-lg" loading="lazy" />
               <a
                 href="https://www.books.com.tw/products/0011021616"
                 target="_blank"
@@ -125,7 +125,7 @@ const CasesSection = () => {
             上過 Penny 課的人<span className="text-accent-green">這樣說</span>
           </h3>
           <div className="rounded-lg overflow-hidden mb-10">
-            <img src={studentGroupImg} alt="AI 出書實戰班學員課後合照，Penny 與學員在工作坊" className="w-full rounded-lg" />
+            <img src={studentGroupImg} alt="AI 出書實戰班學員課後合照，Penny 與學員在工作坊" className="w-full rounded-lg" loading="lazy" />
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {testimonials.map((t, i) => (

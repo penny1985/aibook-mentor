@@ -25,7 +25,8 @@ const ProblemSection = () => {
               <img
                   src={heroIllustration}
                   alt="拿著筆思考的女孩插畫"
-                  className="w-24 h-24 rounded-full object-cover shrink-0 md:hidden" />
+                  className="w-24 h-24 rounded-full object-cover shrink-0 md:hidden"
+                  loading="lazy" />
                 
             </div>
             <p className="font-body text-muted-foreground text-lg leading-relaxed mb-4">
@@ -39,7 +40,8 @@ const ProblemSection = () => {
             <img
                 src={heroIllustration}
                 alt="拿著筆思考的女孩插畫"
-                className="w-56 md:w-72 rounded-lg" />
+                className="w-56 md:w-72 rounded-lg"
+                loading="lazy" />
               
           </div>
         </div>
@@ -52,7 +54,8 @@ const ProblemSection = () => {
         <img
             src={whyPublishNowImg}
             alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
-            className="w-full max-w-2xl mx-auto rounded-lg" />
+            className="w-full max-w-2xl mx-auto rounded-lg"
+            loading="lazy" />
           
         {/* Taglines */}
         <div className="mt-12 text-center space-y-4">
@@ -74,7 +77,7 @@ const ProblemSection = () => {
             <h3 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-3 text-center">傳統出版的書，依舊是一張社會證明</h3>
             <p className="text-muted-foreground/80 text-xl font-medium mb-8 text-center">證明這個人有料，證明這個議題有市場</p>
             <div className="rounded-lg overflow-hidden mb-6 max-w-2xl mx-auto">
-              <img src={bookstoreImg} alt="書店暢銷書展示區，傳統出版書籍作為專業社會證明" className="w-full rounded-lg" />
+              <img src={bookstoreImg} alt="書店暢銷書展示區，傳統出版書籍作為專業社會證明" className="w-full rounded-lg" loading="lazy" />
             </div>
             <div className="space-y-6">
               <p>
@@ -102,7 +105,8 @@ const ProblemSection = () => {
             <img
                 src={publisherLossImg}
                 alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
-                className="w-full" />
+                className="w-full"
+                loading="lazy" />
               
           </div>
           <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">
@@ -137,7 +141,7 @@ const ProblemSection = () => {
               </p>
             </div>
             <div className="rounded-lg overflow-hidden">
-              <img src={workshopPhoto} alt="陳沛孺 Penny 在 AI 出書實戰班工作坊帶領學員實作企劃書" className="w-full rounded-lg" />
+              <img src={workshopPhoto} alt="陳沛孺 Penny 在 AI 出書實戰班工作坊帶領學員實作企劃書" className="w-full rounded-lg" loading="lazy" />
             </div>
           </div>
 
@@ -147,6 +151,7 @@ const ProblemSection = () => {
                 src={sixWeekOutcomeImg}
                 alt="六週結束時，你會有：完整書籍企劃書、試寫章節、投稿信與出版社清單、神秘小禮物"
                 className="w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+                loading="lazy"
                 onClick={() => setZoomOpen(true)} />
               
             <p className="text-center text-muted-foreground/60 text-sm mt-2">點擊圖片放大檢視</p>

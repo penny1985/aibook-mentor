@@ -79,7 +79,7 @@ const ProcessSection = () => {
           </h3>
           <div className="grid md:grid-cols-[200px_1fr] gap-8 items-start mb-6">
             <div>
-              <img src={editorImg} alt="布克文化總編輯賈俊國，30 年出版資歷，經手超過 500 本暢銷書" className="w-full rounded-lg shadow-lg" />
+              <img src={editorImg} alt="布克文化總編輯賈俊國，30 年出版資歷，經手超過 500 本暢銷書" className="w-full rounded-lg shadow-lg" loading="lazy" />
             </div>
             <div>
               <p className="font-body text-muted-foreground text-lg leading-relaxed mb-4">
