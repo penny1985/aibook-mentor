@@ -1,5 +1,5 @@
-import pennyImg from "@/assets/penny-chen.jpg";
-import studentGroupImg from "@/assets/student-group-v2.jpg";
+import pennyImg from "@/assets/penny-chen.webp";
+import studentGroupImg from "@/assets/student-group-v2.webp";
 
 const cases = [
   { name: "陳顯立", title: "好廣告數據創辦人，《流量新紅利時代》《信任效應》（即將出版）作者", result: "用一本書打進台灣前 500 大企業，公司營收一年暴增一億。他說書是最能建立信任的「高級名片」。" },

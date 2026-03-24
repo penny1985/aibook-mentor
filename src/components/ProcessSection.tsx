@@ -1,4 +1,4 @@
-import editorImg from "@/assets/editor-jia.jpg";
+import editorImg from "@/assets/editor-jia.webp";
 
 const ProcessSection = () => {
   return (
