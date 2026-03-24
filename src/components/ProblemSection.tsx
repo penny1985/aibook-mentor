@@ -54,7 +54,8 @@ const ProblemSection = () => {
         <img
             src={whyPublishNowImg}
             alt="為什麼現在出書，比任何時候都重要？AI 衝擊與轉型卡位"
-            className="w-full max-w-2xl mx-auto rounded-lg" />
+            className="w-full max-w-2xl mx-auto rounded-lg"
+            loading="lazy" />
           
         {/* Taglines */}
         <div className="mt-12 text-center space-y-4">
