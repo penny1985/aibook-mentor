@@ -105,7 +105,8 @@ const ProblemSection = () => {
             <img
                 src={publisherLossImg}
                 alt="出版社每簽一本新書的虧損機率高達 90%，產值從 367 億腰斬到約 200 億，首刷量從三千本縮到一千兩百本"
-                className="w-full" />
+                className="w-full"
+                loading="lazy" />
               
           </div>
           <div className="space-y-4 font-body text-muted-foreground text-lg leading-relaxed">
