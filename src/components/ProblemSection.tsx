@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import heroIllustration from "@/assets/hero-illustration.png";
-import whyPublishNowImg from "@/assets/why-publish-now-v2.png";
-import sixWeekOutcomeImg from "@/assets/six-week-outcome.png";
-import publisherLossImg from "@/assets/publisher-loss-rate-user.png";
+import heroIllustration from "@/assets/hero-illustration.webp";
+import whyPublishNowImg from "@/assets/why-publish-now-v2.webp";
+import sixWeekOutcomeImg from "@/assets/six-week-outcome.webp";
+import publisherLossImg from "@/assets/publisher-loss-rate-user.webp";
 import workshopPhoto from "@/assets/workshop-photo.jpg";
 import bookstoreImg from "@/assets/bookstore-display.jpg";
 
