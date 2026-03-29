@@ -48,14 +48,6 @@ const HeroSection = () => {
           </span>
         </div>
 
-        <div className="mt-3 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-          <a
-            href="#pricing"
-            className="inline-flex items-center bg-white/50 backdrop-blur-sm border border-border font-body text-foreground text-base px-5 py-3 rounded hover:border-accent-gold hover:text-accent-gold transition-colors"
-          >
-            早鳥 3/28 截止
-          </a>
-        </div>
       </div>
     </section>
   );
