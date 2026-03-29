@@ -12,10 +12,12 @@ const PricingSection = () => {
           <div className="bg-white border border-border rounded-lg overflow-hidden flex flex-col shadow-sm">
             <div className="p-8 flex-1 flex flex-col">
               <h3 className="font-display text-2xl font-bold mb-2">一日工作坊</h3>
-              <p className="font-body text-accent-gold text-sm font-medium mb-2"><p className="font-body text-accent-gold text-sm font-medium mb-2">優惠價</p></p>
+              <div className="mb-2">
+                <span className="font-display text-2xl text-muted-foreground line-through">NT$8,800</span>
+              </div>
+              <p className="font-body text-accent-gold text-sm font-bold mb-1">優惠價</p>
               <div className="mb-6">
-                <span className="font-display text-4xl font-black text-foreground">NT$7,500</span>
-                <span className="font-body text-muted-foreground text-base ml-2 line-through">NT$8,800</span>
+                <span className="font-display text-4xl font-black text-accent-green">NT$7,500</span>
               </div>
 
               <div className="border-t border-border pt-6 mb-6">
@@ -48,10 +50,12 @@ const PricingSection = () => {
             </span>
             <div className="p-8 pt-14 flex-1 flex flex-col">
               <h3 className="font-display text-2xl font-bold mb-2">工作坊 + 6 週陪跑</h3>
-              <p className="font-body text-accent-gold text-sm font-medium mb-2">合購優惠價</p>
+              <div className="mb-2">
+                <span className="font-display text-2xl text-muted-foreground line-through">NT$20,000</span>
+              </div>
+              <p className="font-body text-accent-gold text-sm font-bold mb-1">合購優惠價</p>
               <div className="mb-6">
-                <span className="font-display text-4xl font-black text-foreground">NT$16,800</span>
-                <span className="font-body text-muted-foreground text-base ml-2 line-through">NT$20,000</span>
+                <span className="font-display text-4xl font-black text-accent-green">NT$16,800</span>
               </div>
 
               <div className="border-t border-border pt-6 mb-6">
