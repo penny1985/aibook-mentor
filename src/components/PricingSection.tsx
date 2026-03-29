@@ -31,7 +31,7 @@ const PricingSection = () => {
               <p className="font-body text-muted-foreground text-sm mt-auto mb-6">適合想先試水溫的你</p>
 
               <a
-                href="https://api.payuni.com.tw/api/uop/receive_info/1/1/FUNC94518350/NqnfzQ39lTK4TArHZtDc"
+                href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/WnILt26EDSYQ9a7aex4WI"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity"
@@ -71,7 +71,7 @@ const PricingSection = () => {
               </p>
 
               <a
-                href="https://api.payuni.com.tw/api/uop/receive_info/1/1/FUNC94518350/xCKxadxq7rF8e8XOqDNS"
+                href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/pdVY4NlhrK63OwIr6Wiv5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center rounded-md bg-accent-green text-white font-body font-bold py-3 px-4 hover:opacity-90 transition-opacity mt-auto"
