@@ -11,10 +11,12 @@ const PricingSection = () => {
           {/* Workshop only */}
           <div className="bg-white border border-border rounded-lg overflow-hidden flex flex-col shadow-sm">
             <div className="p-8 flex-1 flex flex-col">
-              <h3 className="font-display text-2xl font-bold mb-2">一日工作坊</h3>
+              <div className="flex items-baseline gap-2 mb-2">
+                <h3 className="font-display text-2xl font-bold">一日工作坊</h3>
+                <span className="font-display text-lg text-muted-foreground">原價 NT$8,800</span>
+              </div>
               <p className="font-body text-accent-gold text-sm font-bold mb-2">優惠價</p>
               <div className="mb-6">
-                <span className="font-display text-2xl text-muted-foreground mr-2">NT$8,800</span>
                 <span className="font-display text-4xl font-black text-accent-green">NT$7,500</span>
               </div>
 
@@ -48,10 +50,12 @@ const PricingSection = () => {
               推薦方案
             </span>
             <div className="p-8 pt-14 flex-1 flex flex-col">
-              <h3 className="font-display text-2xl font-bold mb-2">工作坊 + 6 週陪跑</h3>
+              <div className="flex items-baseline gap-2 mb-2">
+                <h3 className="font-display text-2xl font-bold">工作坊 + 6 週陪跑</h3>
+                <span className="font-display text-lg text-muted-foreground">原價 NT$20,000</span>
+              </div>
               <p className="font-body text-accent-gold text-sm font-bold mb-2">合購優惠價</p>
               <div className="mb-6">
-                <span className="font-display text-2xl text-muted-foreground mr-2">NT$20,000</span>
                 <span className="font-display text-4xl font-black text-accent-green">NT$16,800</span>
               </div>
 
