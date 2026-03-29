@@ -13,7 +13,7 @@ const PricingSection = () => {
             <div className="p-8 flex-1 flex flex-col">
               <div className="flex items-baseline gap-2 mb-2">
                 <h3 className="font-display text-2xl font-bold">一日工作坊</h3>
-                <span className="font-display text-lg text-muted-foreground">原價 NT$8,800</span>
+                <span className="font-display text-lg text-foreground font-bold line-through decoration-red-400">原價 NT$8,800</span>
               </div>
               <p className="font-body text-accent-gold text-sm font-bold mb-2">優惠價</p>
               <div className="mb-6">
@@ -52,7 +52,7 @@ const PricingSection = () => {
             <div className="p-8 pt-14 flex-1 flex flex-col">
               <div className="flex items-baseline gap-2 mb-2">
                 <h3 className="font-display text-2xl font-bold">工作坊 + 6 週陪跑</h3>
-                <span className="font-display text-lg text-muted-foreground">原價 NT$20,000</span>
+                <span className="font-display text-lg text-foreground font-bold line-through decoration-red-400">原價 NT$20,000</span>
               </div>
               <p className="font-body text-accent-gold text-sm font-bold mb-2">合購優惠價</p>
               <div className="mb-6">
