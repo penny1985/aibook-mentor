@@ -28,7 +28,8 @@ const PricingSection = () => {
                 </ul>
               </div>
 
-              <p className="font-body text-muted-foreground text-sm mt-auto mb-6">適合想先試水溫的你</p>
+              <p className="font-body text-muted-foreground text-sm mt-auto mb-2">適合想先試水溫的你</p>
+              <p className="font-body text-accent-gold text-xs font-medium mb-6">💳 可分期付款</p>
 
               <a
                 href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/WnILt26EDSYQ9a7aex4WI"
@@ -66,9 +67,10 @@ const PricingSection = () => {
                 </ul>
               </div>
 
-              <p className="font-body text-accent-green text-sm font-bold mb-6 flex items-center gap-2">
-                <span className="text-accent-gold">★</span> 陪跑限額 10 人，額滿不加開
+              <p className="font-body text-accent-green text-sm font-bold mb-2 flex items-center gap-2">
+                <span className="text-accent-gold">★</span> 陪跑限額 5 人，額滿不加開
               </p>
+              <p className="font-body text-accent-gold text-xs font-medium mb-6">💳 可分期付款</p>
 
               <a
                 href="https://api.payuni.com.tw/api/uop/receive_info/2/1/FUNC94518350/pdVY4NlhrK63OwIr6Wiv5"
