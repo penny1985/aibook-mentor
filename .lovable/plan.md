@@ -1,12 +1,20 @@
 
 
-## 移除所有「早鳥」字樣
+## 計畫：自動跳轉所有訪客到新網址
 
-還有兩處殘留：
+將所有進入此網站的訪客，自動跳轉到 `https://ai-book2026.lovable.app`。
 
-### 1. `src/components/HeroSection.tsx`（第 51-58 行）
-- 整個「早鳥 3/28 截止」的連結區塊刪除（第 51-58 行的 `<div>` 和 `<a>`）
+### 做法
 
-### 2. `src/components/PricingSection.tsx`（第 15 行）
-- 「早鳥優惠價」改為「優惠價」
+**修改檔案：`src/pages/Index.tsx`**
+
+- 在元件最上方加入 `useEffect`，頁面一載入就執行 `window.location.replace("https://ai-book2026.lovable.app")`
+- 使用 `replace` 而非 `assign`，這樣使用者按「上一頁」不會卡在跳轉迴圈
+- 頁面內容改為簡單的「跳轉中...」提示文字，作為跳轉期間的畫面
+
+### 影響範圍
+
+- 僅修改一個檔案
+- 所有訪客進站後會立即被導向新網址
+- 原本的所有區塊內容都不會再被看到（但程式碼保留，日後可還原）
 
